@@ -1,0 +1,149 @@
+- generic [active] [ref=e1]:
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link "返回首页" [ref=e6] [cursor=pointer]:
+        - /url: http://www.nea.gov.cn
+      - text: "|"
+    - listitem [ref=e7]:
+      - link "网站地图" [ref=e8] [cursor=pointer]:
+        - /url: http://www.nea.gov.cn/wzdt/index.htm
+      - text: "|"
+    - listitem [ref=e9]:
+      - link "设为首页" [ref=e10] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - text: "|"
+    - listitem [ref=e11]:
+      - link "加入收藏" [ref=e12] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - text: "|"
+    - listitem [ref=e13]:
+      - link "联系我们" [ref=e14] [cursor=pointer]:
+        - /url: http://www.nea.gov.cn/lxwm/index.htm
+      - text: "|"
+    - listitem [ref=e15]:
+      - link "工作邮箱登录" [ref=e16] [cursor=pointer]:
+        - /url: http://mail.nea.gov.cn/
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - generic:
+        - textbox [ref=e20]: 请输入关键字
+        - link:
+          - /url: "javascript:"
+        - button "Submit" [ref=e21]
+    - generic [ref=e22]:
+      - list:
+        - listitem [ref=e23]:
+          - link "首 页" [ref=e25] [cursor=pointer]:
+            - /url: http://www.nea.gov.cn
+        - listitem [ref=e26]:
+          - link "信息公开" [ref=e28] [cursor=pointer]:
+            - /url: http://www.nea.gov.cn/zfxxgk/gkzn.htm
+        - listitem [ref=e29]:
+          - link "领导活动" [ref=e31] [cursor=pointer]:
+            - /url: http://www.nea.gov.cn/ldhd/index.htm
+        - listitem [ref=e32]:
+          - link "新闻中心" [ref=e34] [cursor=pointer]:
+            - /url: http://www.nea.gov.cn/xwzx/index.htm
+        - listitem [ref=e35]:
+          - link "能源要闻" [ref=e37] [cursor=pointer]:
+            - /url: http://www.nea.gov.cn/xwzx/nyyw.htm
+        - listitem [ref=e38]:
+          - link "在线办事" [ref=e40] [cursor=pointer]:
+            - /url: https://xzsp.nea.gov.cn/nea/
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - text: 您当前位置：
+      - link "首页" [ref=e43] [cursor=pointer]:
+        - /url: http://www.nea.gov.cn/
+      - text: "> 正文"
+    - generic [ref=e50]:
+      - table [ref=e51]:
+        - rowgroup [ref=e52]:
+          - row "目录项的基本信息" [ref=e53]:
+            - cell "目录项的基本信息" [ref=e54]
+      - table [ref=e55]:
+        - rowgroup [ref=e56]:
+          - 'row "公开事项名称: 国家能源局综合司关于开展新型储能试点示范工作的通知" [ref=e57]':
+            - cell "公开事项名称:" [ref=e58]
+            - cell "国家能源局综合司关于开展新型储能试点示范工作的通知" [ref=e59]
+          - 'row "索引号: 000019705/2023-000085 主办单位: 国家能源局" [ref=e60]':
+            - cell "索引号:" [ref=e61]
+            - cell "000019705/2023-000085" [ref=e62]
+            - cell "主办单位:" [ref=e63]
+            - cell "国家能源局" [ref=e64]
+          - 'row "制发日期: 2023-06-12" [ref=e65]':
+            - cell "制发日期:" [ref=e66]
+            - cell "2023-06-12" [ref=e67]
+      - table [ref=e68]:
+        - rowgroup [ref=e69]:
+          - row [ref=e70]:
+            - cell [ref=e71]
+      - table [ref=e72]:
+        - rowgroup [ref=e73]:
+          - row [ref=e74]:
+            - cell [ref=e75]:
+              - paragraph [ref=e76]:
+                - strong [ref=e79]: 国家能源局综合司关于开展新型储能试点示范工作的通知
+              - paragraph [ref=e80]:
+                - generic [ref=e82]: 国能综通科技[2023]77号
+              - paragraph [ref=e83]: 各省（自治区、直辖市）能源局，有关省（自治区、直辖市）及新疆生产建设兵团发展改革委、工业和信息化主管部门、城市管理委，各派出机构，有关中央企业：
+              - paragraph [ref=e84]: 为深入贯彻党的二十大和二十届一中全会精神，认真落实《中华人民共和国经济和社会发展第十四个五年规划和2035年远景目标纲要》《“十四五”新型储能发展实施方案》有关要求，加快推动新型储能多元化、产业化、市场化高质量发展，支持建设新型能源体系，我局拟组织开展新型储能试点示范，并制定了《新型储能试点示范工作规则（试行）》（以下简称《规则》，见附件1）。为做好示范项目遴选工作，现就有关事项通知如下。
+              - paragraph [ref=e85]: 一、本次示范工作以推动新型储能多元化、产业化发展为目标，组织遴选一批典型应用场景下，在安全性、经济性等方面具有竞争潜力的各类新型储能技术示范项目。
+              - paragraph [ref=e86]: 二、新型储能项目业主单位为申报单位，各省（自治区、直辖市）及新疆生产建设兵团能源主管部门、中央企业集团为推荐单位。
+              - paragraph [ref=e87]: 三、请各申报单位按照《规则》要求，于2023年7月13日前将签字盖章的申报材料报送至项目所在地省级能源主管部门或所属中央企业集团。
+              - paragraph [ref=e88]: 申报项目原则上为已完成备案，且预计在2024年底前投产的项目。申报项目知识产权清晰，技术先进，示范带动作用良好。
+              - paragraph [ref=e89]: 四、请各省级能源主管部门、中央企业集团结合本地区、本企业实际情况，做好示范项目申报组织、初步审核、推荐工作。请于2023年8月13日前将纸质推荐材料（1套）报送至国家能源局科技司。同时，通过全国新型储能大数据平台报送电子版材料（网址：https://www.china-nes.cn）。
+              - paragraph [ref=e90]: 每个推荐单位推荐项目原则上不超过3个，其中同一技术路线的项目不超过2个。
+              - paragraph [ref=e91]: 五、国家能源局将组织评审确定示范项目入围名单，并纳入全国新型储能大数据平台和国家有关重大工程项目库，加强跟踪评估与宣传推广。
+              - paragraph [ref=e92]: 六、推荐材料应包括书面推荐意见、相关项目申报材料、有关支持政策考虑等。材料报送请使用中国邮政EMS。报送日期以邮戳为准。
+              - paragraph [ref=e93]: 邮寄地址：北京市西城区三里河路46号，邮编：100045
+              - paragraph [ref=e94]: 联系方式：国家能源局科技司，010-81929227/9226，010-81929218（传真）
+              - paragraph [ref=e95]: 全国新型储能大数据平台：张翼 1881030218
+              - paragraph [ref=e96]: 赵伟伟 15536555498
+              - paragraph [ref=e97]: 邮箱：nengxiaochuneng@nea.gov.cn
+              - paragraph
+              - paragraph [ref=e98]: "附件:"
+              - paragraph [ref=e99]:
+                - link "1.新型储能试点示范工作规则（试行）" [ref=e100] [cursor=pointer]:
+                  - /url: ../../1310727975_16869082948631n.docx
+              - paragraph [ref=e101]:
+                - link "2.新型储能示范项目申请表" [ref=e102] [cursor=pointer]:
+                  - /url: ../../1310727975_16869083095831n.docx
+              - paragraph [ref=e103]:
+                - link "3.新型储能示范项目申请报告（参考大纲）" [ref=e104] [cursor=pointer]:
+                  - /url: ../../1310727975_16869083328551n.docx
+              - paragraph [ref=e105]: 国家能源局综合司
+              - paragraph [ref=e106]: 2023年6月12日
+              - paragraph
+      - table [ref=e107]:
+        - rowgroup [ref=e108]:
+          - row [ref=e109]:
+            - cell [ref=e110]
+  - iframe [ref=e118]:
+    - generic [ref=f1e3]:
+      - img [ref=f1e6] [cursor=pointer]
+      - paragraph [ref=f1e7]:
+        - link [ref=f1e9] [cursor=pointer]:
+          - /url: https://bszs.conac.cn/sitename?method=show&id=055829908F2D0216E053012819ACFBF5
+          - img [ref=f1e10]
+      - paragraph [ref=f1e11]:
+        - link "网站地图" [ref=f1e12] [cursor=pointer]:
+          - /url: http://www.nea.gov.cn/wzdt/index.htm
+        - text: "|"
+        - link "联系我们" [ref=f1e13] [cursor=pointer]:
+          - /url: http://www.nea.gov.cn/lxwm/index.htm
+        - text: "|"
+        - link "加入收藏 |" [ref=f1e14] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - text: 通讯地址：北京市西城区三里河路46号 | 邮编：100045
+      - paragraph [ref=f1e15]:
+        - text: 主办单位：国家能源局
+        - link "京ICP备11044902号" [ref=f1e16] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/
+        - link [ref=f1e17] [cursor=pointer]:
+          - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202007691
+          - img [ref=f1e18]
+        - link "京公网安备 11010202007691" [ref=f1e19] [cursor=pointer]:
+          - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202007691
+        - text: 网站标识码：bm62000002号
+      - paragraph [ref=f1e20]: 国家能源局 版权所有，如需转载，请注明来源

@@ -1,0 +1,67 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "En" [ref=e5] [cursor=pointer]:
+          - /url: https://en.ndrc.gov.cn/
+        - link "无障碍模式" [ref=e6] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic [ref=e7] [cursor=pointer]: 导航菜单
+      - link "中华人民共和国国家发展和改革委员会" [ref=e9] [cursor=pointer]:
+        - /url: https://www.ndrc.gov.cn/
+        - img [ref=e10]
+  - generic [ref=e11]:
+    - link "首页" [ref=e12] [cursor=pointer]:
+      - /url: ../../../
+    - text: ">"
+    - link "新闻动态" [ref=e13] [cursor=pointer]:
+      - /url: ../../
+    - text: ">"
+    - link "通知公告" [ref=e14] [cursor=pointer]:
+      - /url: ../
+  - generic [ref=e16]:
+    - heading "关于印发《“十四五”新型储能发展实施方案》的通知" [level=1] [ref=e17]
+    - generic [ref=e18]: 2022/03/21 能源局
+    - generic [ref=e19]:
+      - strong [ref=e22]: 国家发展改革委 国家能源局关于印发
+      - strong [ref=e25]: 《“十四五”新型储能发展实施方案》的通知
+      - generic [ref=e28]: 发改能源〔2022〕209号
+      - text: 各省、自治区、直辖市及新疆生产建设兵团发展改革委、能源局，国家能源局各派出机构，有关中央企业：
+      - text: 为深入贯彻落实“四个革命、一个合作”能源安全新战略，实现碳达峰碳中和战略目标，支撑构建新型电力系统，加快推动新型储能高质量规模化发展，根据《中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要》《国家发展改革委 国家能源局关于加快推动新型储能发展的指导意见》有关要求，我们组织编制了《“十四五”新型储能发展实施方案》，现印发给你们，请遵照执行。
+      - generic [ref=e29]:
+        - text: 国家发展改革委
+        - text: 国 家 能 源 局
+        - text: 2022年1月29日
+    - generic [ref=e31]:
+      - generic [ref=e32]: 附件：
+      - paragraph [ref=e34]:
+        - link "《“十四五”新型储能发展实施方案》" [ref=e35] [cursor=pointer]:
+          - /url: ./P020220321550104020921.pdf
+  - paragraph
+  - contentinfo [ref=e36]:
+    - strong [ref=e37]:
+      - link "网站地图" [ref=e38] [cursor=pointer]:
+        - /url: https://www.ndrc.gov.cn/wzdt/
+      - text: 丨
+      - link "联系我们" [ref=e39] [cursor=pointer]:
+        - /url: https://www.ndrc.gov.cn/lxwm/
+      - text: 丨
+      - link "工作邮箱" [ref=e40] [cursor=pointer]:
+        - /url: http://mail.ndrc.gov.cn
+    - paragraph [ref=e41]: 主办单位：中华人民共和国国家发展和改革委员会
+    - paragraph [ref=e42]: 技术支持：国家信息中心 中国经济信息网
+    - paragraph [ref=e43]:
+      - text: 网站标识码：bm04000007
+      - link "京ICP备05052393号" [ref=e44] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn
+    - paragraph [ref=e45]: 京公网安备11010202000002号
+    - paragraph [ref=e46]: 国家发展和改革委员会 版权所有，如需转载，请注明来源
+    - list [ref=e47]:
+      - listitem [ref=e48]:
+        - link "党政机关标识" [ref=e49] [cursor=pointer]:
+          - /url: http://bszs.conac.cn/sitename?method=show&id=0726C654D9D843C1E053012819AC12F1
+          - img "党政机关标识" [ref=e50]
+      - listitem [ref=e51]:
+        - link [ref=e52] [cursor=pointer]:
+          - /url: https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=bm04000007&url=https%3A%2F%2Fwww.ndrc.gov.cn%2Fzwfw%2F
+          - img [ref=e53]

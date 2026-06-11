@@ -1,0 +1,634 @@
+- generic [ref=e2]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "雪球 首页" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img "雪球" [ref=e11]
+          - generic [ref=e12]: 首页
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - textbox "搜索" [ref=e15]
+          - button "" [ref=e17] [cursor=pointer]
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "" [ref=e20] [cursor=pointer]:
+              - /url: /snb/web/cs?from=xq
+          - listitem [ref=e21]:
+            - link "下载App" [ref=e22] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e23]:
+            - generic [ref=e24] [cursor=pointer]: 登录
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - link "本无妙手" [ref=e30] [cursor=pointer]:
+          - /url: /vitamin
+          - img "本无妙手" [ref=e31]
+        - link "本无妙手" [ref=e33] [cursor=pointer]:
+          - /url: /vitamin
+        - generic [ref=e34]:
+          - link "发布于2026-06-03 21:20" [ref=e35] [cursor=pointer]:
+            - /url: /2323542858/392691370
+            - text: 发布于
+            - time [ref=e36]: 2026-06-03 21:20
+          - generic [ref=e37]: 来自雪球
+          - text: ·
+          - generic [ref=e38]: 山西
+        - generic [ref=e39] [cursor=pointer]: 关注
+      - article [ref=e40]:
+        - heading [level=1]
+        - generic [ref=e41]:
+          - heading "核心观点：钠离子电池（SIB）即将颠覆LFP市场" [level=4] [ref=e42]:
+            - text: 核心观点
+            - generic [ref=e43]: ：
+            - text: 钠离子电池
+            - generic [ref=e44]: （
+            - text: SIB
+            - generic [ref=e45]: ）
+            - text: 即将颠覆LFP市场
+          - paragraph [ref=e46]:
+            - text: 成本急剧下降
+            - generic [ref=e47]: ：
+            - text: 2025年
+            - generic [ref=e49]: ，
+            - text: 钠离子电池电芯成本下降了24%
+            - generic [ref=e51]: ，
+            - text: 从75美元/kWh降至57美元/kWh
+            - generic [ref=e52]: 。
+            - text: 预计将在2026年底与LFP
+            - generic [ref=e53]: （
+            - text: 磷酸铁锂
+            - generic [ref=e54]: ）
+            - text: 达到成本平价
+            - generic [ref=e56]: ，
+            - text: 在2027年成本低于LFP
+            - generic [ref=e58]: ，
+            - text: 最终形成15-20美元/kWh的成本优势
+            - generic [ref=e59]: 。
+          - paragraph [ref=e60]:
+            - text: 性能显著提升
+            - generic [ref=e61]: ：
+            - text: 循环寿命从过去的1,000-2,000次大幅提升至10,000次
+            - generic [ref=e62]: （
+            - text: LFP约3,000次
+            - generic [ref=e64]: ）
+            - generic [ref=e65]: ，
+            - text: 能量密度达到175Wh/kg
+            - generic [ref=e66]: （
+            - text: CATL第二代产品
+            - generic [ref=e68]: ）
+            - generic [ref=e70]: ，
+            - text: 并具备快充和优异的低温性能
+            - generic [ref=e71]: 。
+          - paragraph [ref=e72]:
+            - text: 出货量爆发
+            - generic [ref=e73]: ：
+            - text: 2025年全球钠离子电池出货量翻倍至9GWh
+            - generic [ref=e75]: ，
+            - text: 预计2026年将再增长2倍以上
+            - generic [ref=e76]: ，
+            - text: 至少达到25GWh
+            - generic [ref=e78]: 。
+            - text: 储能
+            - generic [ref=e79]: （
+            - text: ESS
+            - generic [ref=e80]: ）
+            - text: 是最大应用领域
+            - generic [ref=e81]: （
+            - text: ">50%"
+            - generic [ref=e83]: ）
+            - generic [ref=e85]: ，
+            - text: 其次是微出行
+            - generic [ref=e86]: （
+            - text: 20%
+            - generic [ref=e87]: ）
+            - text: 和汽车启停
+            - generic [ref=e88]: （
+            - text: 12%
+            - generic [ref=e90]: ）
+            - generic [ref=e91]: 。
+          - paragraph [ref=e92]:
+            - text: 市场格局重塑
+            - generic [ref=e93]: ：
+            - text: 若钠离子电池能占据储能市场10%-20%的份额
+            - generic [ref=e95]: ，
+            - text: 到2030年其需求可达350GWh
+            - generic [ref=e97]: 。
+            - text: 这将颠覆LFP在储能市场的地位
+            - generic [ref=e99]: ，
+            - text: 并对锂供应链产生重大影响
+      - paragraph [ref=e100]: 风险提示：用户发表的所有文章仅代表个人观点，与雪球的立场无关。投资决策需建立在独立思考之上。
+      - generic [ref=e103]:
+        - generic [ref=e104] [cursor=pointer]:
+          - generic [ref=e105]: 
+          - generic [ref=e107]: "1"
+        - generic [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]: 
+          - generic [ref=e111]: "1"
+      - generic [ref=e113]:
+        - img "微信分享" [ref=e117] [cursor=pointer]
+        - generic [ref=e118]:
+          - link " 转发" [ref=e119] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e120]: 
+            - paragraph [ref=e121]: 转发
+          - link " 讨论" [ref=e122] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e123]: 
+            - paragraph [ref=e124]: 讨论
+        - link "投诉" [ref=e127] [cursor=pointer]:
+          - /url: ""
+          - paragraph [ref=e128]: 投诉
+      - generic [ref=e131]:
+        - img [ref=e132]
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135]: 回复@本无妙手
+            - textbox [ref=e136]:
+              - paragraph [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - link "" [ref=e141] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e142]: 
+              - link "" [ref=e143] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e144]: 
+              - link "" [ref=e145] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e146]: 
+              - generic [ref=e148]:
+                - checkbox "仅在正文下讨论" [ref=e149]
+                - generic [ref=e150]: 仅在正文下讨论
+                - img [ref=e152]
+            - link "发布" [ref=e154]:
+              - /url: ""
+    - generic [ref=e156]:
+      - generic [ref=e157]:
+        - heading "热门话题" [level=3] [ref=e158]
+        - table [ref=e160]:
+          - row "1 光刻胶板块大涨，中船特气创新高" [ref=e161]:
+            - cell "1" [ref=e162]
+            - cell "光刻胶板块大涨，中船特气创新高" [ref=e163]:
+              - link "光刻胶板块大涨，中船特气创新高" [ref=e164] [cursor=pointer]:
+                - /url: /k?q=%23%E5%85%89%E5%88%BB%E8%83%B6%E6%9D%BF%E5%9D%97%E5%A4%A7%E6%B6%A8%EF%BC%8C%E4%B8%AD%E8%88%B9%E7%89%B9%E6%B0%94%E5%88%9B%E6%96%B0%E9%AB%98%23
+          - row "2 半导体材料板块大涨，兴福电子涨停" [ref=e165]:
+            - cell "2" [ref=e166]
+            - cell "半导体材料板块大涨，兴福电子涨停" [ref=e167]:
+              - link "半导体材料板块大涨，兴福电子涨停" [ref=e168] [cursor=pointer]:
+                - /url: /k?q=%23%E5%8D%8A%E5%AF%BC%E4%BD%93%E6%9D%90%E6%96%99%E6%9D%BF%E5%9D%97%E5%A4%A7%E6%B6%A8%EF%BC%8C%E5%85%B4%E7%A6%8F%E7%94%B5%E5%AD%90%E6%B6%A8%E5%81%9C%23
+          - row "3 CPO概念回落，新易盛大跌" [ref=e169]:
+            - cell "3" [ref=e170]
+            - cell "CPO概念回落，新易盛大跌" [ref=e171]:
+              - link "CPO概念回落，新易盛大跌" [ref=e172] [cursor=pointer]:
+                - /url: /k?q=%23CPO%E6%A6%82%E5%BF%B5%E5%9B%9E%E8%90%BD%EF%BC%8C%E6%96%B0%E6%98%93%E7%9B%9B%E5%A4%A7%E8%B7%8C%23
+          - row "4 锂矿板块回升，永杉锂业涨停" [ref=e173]:
+            - cell "4" [ref=e174]
+            - cell "锂矿板块回升，永杉锂业涨停" [ref=e175]:
+              - link "锂矿板块回升，永杉锂业涨停" [ref=e176] [cursor=pointer]:
+                - /url: /k?q=%23%E9%94%82%E7%9F%BF%E6%9D%BF%E5%9D%97%E5%9B%9E%E5%8D%87%EF%BC%8C%E6%B0%B8%E6%9D%89%E9%94%82%E4%B8%9A%E6%B6%A8%E5%81%9C%23
+          - row "5 电子特气概念大涨，和远气体创新高" [ref=e177]:
+            - cell "5" [ref=e178]
+            - cell "电子特气概念大涨，和远气体创新高" [ref=e179]:
+              - link "电子特气概念大涨，和远气体创新高" [ref=e180] [cursor=pointer]:
+                - /url: /k?q=%23%E7%94%B5%E5%AD%90%E7%89%B9%E6%B0%94%E6%A6%82%E5%BF%B5%E5%A4%A7%E6%B6%A8%EF%BC%8C%E5%92%8C%E8%BF%9C%E6%B0%94%E4%BD%93%E5%88%9B%E6%96%B0%E9%AB%98%23
+          - row "6 钨概念板块走强，翔鹭钨业封涨停板" [ref=e181]:
+            - cell "6" [ref=e182]
+            - cell "钨概念板块走强，翔鹭钨业封涨停板" [ref=e183]:
+              - link "钨概念板块走强，翔鹭钨业封涨停板" [ref=e184] [cursor=pointer]:
+                - /url: /k?q=%23%E9%92%A8%E6%A6%82%E5%BF%B5%E6%9D%BF%E5%9D%97%E8%B5%B0%E5%BC%BA%EF%BC%8C%E7%BF%94%E9%B9%AD%E9%92%A8%E4%B8%9A%E5%B0%81%E6%B6%A8%E5%81%9C%E6%9D%BF%23
+          - row "7 超硬材料概念活跃，惠丰钻石大涨" [ref=e185]:
+            - cell "7" [ref=e186]
+            - cell "超硬材料概念活跃，惠丰钻石大涨" [ref=e187]:
+              - link "超硬材料概念活跃，惠丰钻石大涨" [ref=e188] [cursor=pointer]:
+                - /url: /k?q=%23%E8%B6%85%E7%A1%AC%E6%9D%90%E6%96%99%E6%A6%82%E5%BF%B5%E6%B4%BB%E8%B7%83%EF%BC%8C%E6%83%A0%E4%B8%B0%E9%92%BB%E7%9F%B3%E5%A4%A7%E6%B6%A8%23
+          - row "8 物理AI概念大跌，天娱数科跌停" [ref=e189]:
+            - cell "8" [ref=e190]
+            - cell "物理AI概念大跌，天娱数科跌停" [ref=e191]:
+              - link "物理AI概念大跌，天娱数科跌停" [ref=e192] [cursor=pointer]:
+                - /url: /k?q=%23%E7%89%A9%E7%90%86AI%E6%A6%82%E5%BF%B5%E5%A4%A7%E8%B7%8C%EF%BC%8C%E5%A4%A9%E5%A8%B1%E6%95%B0%E7%A7%91%E8%B7%8C%E5%81%9C%23
+          - row "9 化工板块大涨，兴发集团涨停" [ref=e193]:
+            - cell "9" [ref=e194]
+            - cell "化工板块大涨，兴发集团涨停" [ref=e195]:
+              - link "化工板块大涨，兴发集团涨停" [ref=e196] [cursor=pointer]:
+                - /url: /k?q=%23%E5%8C%96%E5%B7%A5%E6%9D%BF%E5%9D%97%E5%A4%A7%E6%B6%A8%EF%BC%8C%E5%85%B4%E5%8F%91%E9%9B%86%E5%9B%A2%E6%B6%A8%E5%81%9C%23
+          - row "10 超微电脑创最大跌幅" [ref=e197]:
+            - cell "10" [ref=e198]
+            - cell "超微电脑创最大跌幅" [ref=e199]:
+              - link "超微电脑创最大跌幅" [ref=e200] [cursor=pointer]:
+                - /url: /k?q=%23%E8%B6%85%E5%BE%AE%E7%94%B5%E8%84%91%E5%88%9B%E6%9C%80%E5%A4%A7%E8%B7%8C%E5%B9%85%23
+      - generic [ref=e202] [cursor=pointer]:
+        - img [ref=e203]
+        - generic [ref=e204]: 
+      - generic [ref=e205]:
+        - heading "热股榜 更多" [level=3] [ref=e206]:
+          - text: 热股榜
+          - link "更多" [ref=e207] [cursor=pointer]:
+            - /url: /hq#hot
+        - generic [ref=e208]:
+          - link "全球" [ref=e209] [cursor=pointer]:
+            - /url: ""
+          - link "沪深" [ref=e210] [cursor=pointer]:
+            - /url: ""
+          - link "港股" [ref=e211] [cursor=pointer]:
+            - /url: ""
+          - link "美股" [ref=e212] [cursor=pointer]:
+            - /url: ""
+        - generic [ref=e213]:
+          - link "1小时内最热" [ref=e214] [cursor=pointer]:
+            - /url: ""
+          - link "24小时内最热" [ref=e215] [cursor=pointer]:
+            - /url: ""
+        - generic [ref=e216]:
+          - generic [ref=e218]:
+            - generic [ref=e219]: "1"
+            - link "英特尔" [ref=e221] [cursor=pointer]:
+              - /url: /S/INTC
+            - generic [ref=e222]: +5.49%
+          - generic [ref=e224]:
+            - generic [ref=e225]: "2"
+            - link "英伟达" [ref=e227] [cursor=pointer]:
+              - /url: /S/NVDA
+            - generic [ref=e228]: +0.55%
+          - generic [ref=e230]:
+            - generic [ref=e231]: "3"
+            - link "美光科技" [ref=e233] [cursor=pointer]:
+              - /url: /S/MU
+            - generic [ref=e234]: +2.42%
+          - generic [ref=e236]:
+            - generic [ref=e237]: "4"
+            - link "闪迪" [ref=e239] [cursor=pointer]:
+              - /url: /S/SNDK
+            - generic [ref=e240]: +5.50%
+          - generic [ref=e242]:
+            - generic [ref=e243]: "5"
+            - link "甲骨文" [ref=e245] [cursor=pointer]:
+              - /url: /S/ORCL
+            - generic [ref=e246]: "-10.56%"
+          - generic [ref=e248]:
+            - generic [ref=e249]: "6"
+            - link "阿里巴巴" [ref=e251] [cursor=pointer]:
+              - /url: /S/BABA
+            - generic [ref=e252]: "-3.42%"
+          - generic [ref=e254]:
+            - generic [ref=e255]: "7"
+            - link "中船特气" [ref=e257] [cursor=pointer]:
+              - /url: /S/SH688146
+            - generic [ref=e258]: +19.79%
+          - generic [ref=e260]:
+            - generic [ref=e261]: "8"
+            - link "江丰电子" [ref=e263] [cursor=pointer]:
+              - /url: /S/SZ300666
+            - generic [ref=e264]: +20.00%
+      - generic [ref=e265]:
+        - heading "涨跌幅榜 更多" [level=3] [ref=e266]:
+          - text: 涨跌幅榜
+          - link "更多" [ref=e267] [cursor=pointer]:
+            - /url: /hq#rank
+        - generic [ref=e268]:
+          - link "沪深" [ref=e269] [cursor=pointer]:
+            - /url: ""
+          - link "港股" [ref=e270] [cursor=pointer]:
+            - /url: ""
+          - link "美股" [ref=e271] [cursor=pointer]:
+            - /url: ""
+        - generic [ref=e272]:
+          - link "涨幅榜" [ref=e273] [cursor=pointer]:
+            - /url: ""
+          - link "跌幅榜" [ref=e274] [cursor=pointer]:
+            - /url: ""
+        - table [ref=e275]:
+          - row "1 N金戈 +433.78%" [ref=e276]:
+            - cell "1" [ref=e277]
+            - cell "N金戈" [ref=e278]:
+              - link "N金戈" [ref=e279] [cursor=pointer]:
+                - /url: /S/BJ920083
+            - cell [ref=e280]
+            - cell "+433.78%" [ref=e281]
+          - row "2 火星人 +20.04%" [ref=e282]:
+            - cell "2" [ref=e283]
+            - cell "火星人" [ref=e284]:
+              - link "火星人" [ref=e285] [cursor=pointer]:
+                - /url: /S/SZ300894
+            - cell [ref=e286]
+            - cell "+20.04%" [ref=e287]
+          - row "3 濮阳惠成 +20.01%" [ref=e288]:
+            - cell "3" [ref=e289]
+            - cell "濮阳惠成" [ref=e290]:
+              - link "濮阳惠成" [ref=e291] [cursor=pointer]:
+                - /url: /S/SZ300481
+            - cell [ref=e292]
+            - cell "+20.01%" [ref=e293]
+          - row "4 欧莱新材 +20.01%" [ref=e294]:
+            - cell "4" [ref=e295]
+            - cell "欧莱新材" [ref=e296]:
+              - link "欧莱新材" [ref=e297] [cursor=pointer]:
+                - /url: /S/SH688530
+            - cell [ref=e298]
+            - cell "+20.01%" [ref=e299]
+          - row "5 华特气体 +20.00%" [ref=e300]:
+            - cell "5" [ref=e301]
+            - cell "华特气体" [ref=e302]:
+              - link "华特气体" [ref=e303] [cursor=pointer]:
+                - /url: /S/SH688268
+            - cell [ref=e304]
+            - cell "+20.00%" [ref=e305]
+          - row "6 兴福电子 +20.00%" [ref=e306]:
+            - cell "6" [ref=e307]
+            - cell "兴福电子" [ref=e308]:
+              - link "兴福电子" [ref=e309] [cursor=pointer]:
+                - /url: /S/SH688545
+            - cell [ref=e310]
+            - cell "+20.00%" [ref=e311]
+          - row "7 江丰电子 +20.00%" [ref=e312]:
+            - cell "7" [ref=e313]
+            - cell "江丰电子" [ref=e314]:
+              - link "江丰电子" [ref=e315] [cursor=pointer]:
+                - /url: /S/SZ300666
+            - cell [ref=e316]
+            - cell "+20.00%" [ref=e317]
+          - row "8 和林微纳 +20.00%" [ref=e318]:
+            - cell "8" [ref=e319]
+            - cell "和林微纳" [ref=e320]:
+              - link "和林微纳" [ref=e321] [cursor=pointer]:
+                - /url: /S/SH688661
+            - cell [ref=e322]
+            - cell "+20.00%" [ref=e323]
+          - row "9 耐科装备 +20.00%" [ref=e324]:
+            - cell "9" [ref=e325]
+            - cell "耐科装备" [ref=e326]:
+              - link "耐科装备" [ref=e327] [cursor=pointer]:
+                - /url: /S/SH688419
+            - cell [ref=e328]
+            - cell "+20.00%" [ref=e329]
+          - row "10 炬光科技 +20.00%" [ref=e330]:
+            - cell "10" [ref=e331]
+            - cell "炬光科技" [ref=e332]:
+              - link "炬光科技" [ref=e333] [cursor=pointer]:
+                - /url: /S/SH688167
+            - cell [ref=e334]
+            - cell "+20.00%" [ref=e335]
+      - generic [ref=e336]:
+        - heading "热门基金" [level=3] [ref=e337]
+        - table [ref=e338]:
+          - row "1 金元顺安元启混合 年化(近5年) +25.72%" [ref=e339]:
+            - cell "1" [ref=e340]
+            - cell "金元顺安元启混合" [ref=e341]:
+              - link "金元顺安元启混合" [ref=e342] [cursor=pointer]:
+                - /url: /S/F004685
+            - cell "年化(近5年)" [ref=e343]
+            - cell "+25.72%" [ref=e344]
+          - row "2 华夏中证5G通信主题ETF联接A 年化(近5年) +25.15%" [ref=e345]:
+            - cell "2" [ref=e346]
+            - cell "华夏中证5G通信主题ETF联接A" [ref=e347]:
+              - link "华夏中证5G通信主题ETF联接A" [ref=e348] [cursor=pointer]:
+                - /url: /S/F008086
+            - cell "年化(近5年)" [ref=e349]
+            - cell "+25.15%" [ref=e350]
+          - row "3 中信保诚全球商品主题（QDII-FOF-LOF)A 年化(近5年) +20.28%" [ref=e351]:
+            - cell "3" [ref=e352]
+            - cell "中信保诚全球商品主题（QDII-FOF-LOF)A" [ref=e353]:
+              - link "中信保诚全球商品主题（QDII-FOF-LOF)A" [ref=e354] [cursor=pointer]:
+                - /url: /S/F165513
+            - cell "年化(近5年)" [ref=e355]
+            - cell "+20.28%" [ref=e356]
+          - row "4 前海开源沪港深核心资源C 年化(近5年) +19.05%" [ref=e357]:
+            - cell "4" [ref=e358]
+            - cell "前海开源沪港深核心资源C" [ref=e359]:
+              - link "前海开源沪港深核心资源C" [ref=e360] [cursor=pointer]:
+                - /url: /S/F003305
+            - cell "年化(近5年)" [ref=e361]
+            - cell "+19.05%" [ref=e362]
+          - row "5 华商新趋势混合 年化(近5年) +18.79%" [ref=e363]:
+            - cell "5" [ref=e364]
+            - cell "华商新趋势混合" [ref=e365]:
+              - link "华商新趋势混合" [ref=e366] [cursor=pointer]:
+                - /url: /S/F166301
+            - cell "年化(近5年)" [ref=e367]
+            - cell "+18.79%" [ref=e368]
+          - row "6 华安黄金ETF联接A 年化(近5年) +17.85%" [ref=e369]:
+            - cell "6" [ref=e370]
+            - cell "华安黄金ETF联接A" [ref=e371]:
+              - link "华安黄金ETF联接A" [ref=e372] [cursor=pointer]:
+                - /url: /S/F000216
+            - cell "年化(近5年)" [ref=e373]
+            - cell "+17.85%" [ref=e374]
+          - row "7 广发石油指数QDII-A 年化(近5年) +17.30%" [ref=e375]:
+            - cell "7" [ref=e376]
+            - cell "广发石油指数QDII-A" [ref=e377]:
+              - link "广发石油指数QDII-A" [ref=e378] [cursor=pointer]:
+                - /url: /S/F162719
+            - cell "年化(近5年)" [ref=e379]
+            - cell "+17.30%" [ref=e380]
+          - row "8 宏利转型机遇股票A 年化(近5年) +16.76%" [ref=e381]:
+            - cell "8" [ref=e382]
+            - cell "宏利转型机遇股票A" [ref=e383]:
+              - link "宏利转型机遇股票A" [ref=e384] [cursor=pointer]:
+                - /url: /S/F000828
+            - cell "年化(近5年)" [ref=e385]
+            - cell "+16.76%" [ref=e386]
+          - row "9 华商盛世成长混合 年化(近5年) +15.46%" [ref=e387]:
+            - cell "9" [ref=e388]
+            - cell "华商盛世成长混合" [ref=e389]:
+              - link "华商盛世成长混合" [ref=e390] [cursor=pointer]:
+                - /url: /S/F630002
+            - cell "年化(近5年)" [ref=e391]
+            - cell "+15.46%" [ref=e392]
+          - row "10 华安标普全球石油指数 年化(近5年) +14.57%" [ref=e393]:
+            - cell "10" [ref=e394]
+            - cell "华安标普全球石油指数" [ref=e395]:
+              - link "华安标普全球石油指数" [ref=e396] [cursor=pointer]:
+                - /url: /S/F160416
+            - cell "年化(近5年)" [ref=e397]
+            - cell "+14.57%" [ref=e398]
+      - generic [ref=e399]:
+        - generic [ref=e400]:
+          - link "常见问题" [ref=e401] [cursor=pointer]:
+            - /url: /about/faq
+          - text: ｜
+          - link "关于雪球" [ref=e402] [cursor=pointer]:
+            - /url: /about/what-is-xueqiu
+          - text: ｜
+          - link "投资者教育" [ref=e403] [cursor=pointer]:
+            - /url: /edu/invest-edu
+          - text: ｜
+          - link "风险提示" [ref=e404] [cursor=pointer]:
+            - /url: /about/faq#6_0
+        - generic [ref=e405]:
+          - text: © 2026 XUEQIU.COM 北京雪球信息科技有限公司
+          - link "京公网安备 11010502040379号" [ref=e406] [cursor=pointer]:
+            - /url: https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502040379
+          - text: ·
+          - link "京ICP证100666号" [ref=e407] [cursor=pointer]:
+            - /url: https://xqdoc.imedao.com/198bc1b4fb41d6523feaace4.jpg
+          - link "京ICP备10040543" [ref=e408] [cursor=pointer]:
+            - /url: https://beian.miit.gov.cn/
+          - text: ·
+          - link "京金信备〔2022〕3号" [ref=e409] [cursor=pointer]:
+            - /url: https://fisbaobei.ifcert.cn/Home/homeIindex
+          - link "营业执照" [ref=e410] [cursor=pointer]:
+            - /url: https://xqimg.imedao.com/1798dc30dead0453fd6075d8.png
+          - text: ·
+          - link "侵权投诉指引" [ref=e411] [cursor=pointer]:
+            - /url: /law/tortreport
+          - text: ·
+          - link "出版物经营许可证" [ref=e412] [cursor=pointer]:
+            - /url: https://xqimg.imedao.com/181b337b7742caf83fee6640.png
+  - generic [ref=e416]:
+    - link "跳过" [ref=e417] [cursor=pointer]:
+      - /url: ""
+    - generic [ref=e420]:
+      - generic [ref=e421]:
+        - generic [ref=e422]:
+          - link "验证码登录" [ref=e423] [cursor=pointer]:
+            - /url: ""
+          - link "账号密码登录" [ref=e424] [cursor=pointer]:
+            - /url: ""
+          - link "二维码登录" [ref=e425] [cursor=pointer]:
+            - /url: ""
+        - generic [ref=e430]:
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - generic [ref=e433] [cursor=pointer]: "+86"
+              - combobox [ref=e434] [cursor=pointer]:
+                - option "中国 +86" [selected]
+                - option "美国 +1"
+                - option "加拿大 +1"
+                - option "中国香港 +852"
+                - option "新加坡 +65"
+                - option "澳大利亚 +61"
+                - option "中国台湾 +886"
+                - option "英国 +44"
+                - option "日本 +81"
+                - option "中国澳门 +853"
+                - option "马来西亚 +60"
+                - option "德国 +49"
+                - option "法国 +33"
+                - option "韩国 +82"
+                - option "新西兰 +64"
+                - option "意大利 +39"
+                - option "泰国 +66"
+                - option "阿拉伯联合酋长国 +971"
+                - option "西班牙 +34"
+                - option "俄罗斯 +7"
+                - option "瑞典 +46"
+                - option "荷兰 +31"
+                - option "印度尼西亚 +62"
+                - option "菲律宾 +63"
+                - option "爱尔兰 +353"
+                - option "越南 +84"
+                - option "沙特阿拉伯 +966"
+                - option "柬埔寨 +855"
+                - option "尼日利亚 +234"
+                - option "安哥拉 +244"
+                - option "瑞士 +41"
+                - option "肯尼亚 +254"
+                - option "墨西哥 +52"
+                - option "南非 +27"
+                - option "委内瑞拉 +58"
+                - option "坦桑尼亚 +255"
+                - option "巴基斯坦 +92"
+                - option "挪威 +47"
+                - option "比利时 +32"
+                - option "巴西 +55"
+                - option "葡萄牙 +351"
+                - option "乌克兰 +380"
+                - option "阿曼 +968"
+                - option "芬兰 +358"
+                - option "埃及 +20"
+                - option "白俄罗斯 +375"
+                - option "印度 +91"
+                - option "科威特 +965"
+                - option "斯里兰卡 +94"
+                - option "埃塞俄比亚 +251"
+                - option "土耳其 +90"
+                - option "赞比亚 +260"
+                - option "刚果民主共和国 +243"
+                - option "罗马尼亚 +40"
+                - option "博茨瓦纳 +267"
+                - option "丹麦 +45"
+                - option "以色列 +972"
+                - option "塔吉克斯坦 +992"
+                - option "巴拿马 +507"
+                - option "卡塔尔 +974"
+                - option "匈牙利 +36"
+                - option "孟加拉国 +880"
+                - option "莫桑比克 +258"
+                - option "阿尔及利亚 +213"
+                - option "喀麦隆 +237"
+                - option "圣马力诺 +223"
+                - option "伊朗 +98"
+                - option "塞尔维亚 +381"
+                - option "苏丹 +249"
+                - option "斯洛伐克 +421"
+                - option "莱索托 +266"
+                - option "加纳 +233"
+                - option "保加利亚 +359"
+                - option "哥伦比亚 +57"
+                - option "阿塞拜疆 +994"
+                - option "纳米比亚 +264"
+                - option "奥地利 +43"
+                - option "西撒哈拉 +212"
+                - option "蒙古 +976"
+                - option "刚果 +242"
+                - option "波兰 +48"
+                - option "尼日尔 +227"
+                - option "卢森堡 +352"
+                - option "吉尔吉斯斯坦 +996"
+                - option "卢旺达 +250"
+                - option "乍得 +235"
+                - option "苏里南 +597"
+                - option "尼泊尔 +977"
+                - option "约旦 +962"
+                - option "多哥 +228"
+                - option "特里尼达及多巴哥 +1868"
+                - option "阿根廷 +54"
+                - option "马达加斯加 +261"
+                - option "危地马拉 +502"
+                - option "伊拉克 +964"
+                - option "利比里亚 +231"
+                - option "牙买加 +1876"
+                - option "赤道几内亚 +240"
+                - option "几内亚 +224"
+                - option "马约特 +262"
+                - option "希腊 +30"
+                - option "乌干达 +256"
+                - option "阿富汗 +93"
+                - option "加蓬 +241"
+                - option "马其顿 +389"
+                - option "科特迪瓦 +225"
+                - option "秘鲁 +51"
+                - option "关岛 +1671"
+            - textbox "请输入手机号" [ref=e435]
+          - generic [ref=e436]:
+            - textbox "请输入验证码" [ref=e437]
+            - link "发送验证码" [ref=e439]:
+              - /url: ""
+      - generic [ref=e440]:
+        - generic [ref=e441]:
+          - generic [ref=e442]:
+            - checkbox "下次自动登录" [checked] [ref=e443]
+            - text: 下次自动登录
+          - link "邮箱验证码登录" [ref=e445] [cursor=pointer]:
+            - /url: ""
+        - generic [ref=e446] [cursor=pointer]: 登 录
+        - generic [ref=e448]:
+          - generic [ref=e449] [cursor=pointer]: 
+          - generic [ref=e450]: 阅读并同意
+          - link "服务协议、" [ref=e451] [cursor=pointer]:
+            - /url: /about/terms
+          - link "隐私政策" [ref=e452] [cursor=pointer]:
+            - /url: /law/privacy
+        - generic [ref=e453]:
+          - link "" [ref=e454] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e455]: 
+          - emphasis [ref=e456] [cursor=pointer]: 微信登录
+  - generic [ref=e458]:
+    - img [ref=e459]
+    - link "" [ref=e460] [cursor=pointer]:
+      - /url: ""
+    - generic [ref=e462] [cursor=pointer]: 立即登录/注册

@@ -1,0 +1,4 @@
+[     244ms] [LOG] content_类型： false 是否为总网： false 是否为分公司： false 是否为城建网站： true 距今1年： true 距今2年： true @ https://www.news.cn/global/js/pageCore.js:34
+[     244ms] [LOG] _url zfxxgk.nea.gov.cn @ https://www.news.cn/global/js/pageCore.js:40
+[     244ms] [LOG] isAllNet_ false @ https://www.news.cn/global/js/pageCore.js:41
+[    1254ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://zfxxgk.nea.gov.cn/favicon.ico:0

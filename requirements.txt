@@ -1,0 +1,24 @@
+# ========== 核心依赖 ==========
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+
+# ========== MCP 工具 ==========
+langchain-mcp-adapters>=0.1.0
+
+# ========== LLM 提供商 ==========
+# Qwen (通义千问) 和 DeepSeek 均通过 OpenAI 兼容接口调用
+# 已包含在 langchain-openai 中，无需额外依赖
+
+# ========== PDF 解析 ==========
+PyMuPDF>=1.24.0
+
+# ========== 降级工具（MCP 不可用时使用） ==========
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+ddgs>=6.0.0
+
+# ========== 配置 ==========
+python-dotenv>=1.0.0
+pydantic>=2.0.0

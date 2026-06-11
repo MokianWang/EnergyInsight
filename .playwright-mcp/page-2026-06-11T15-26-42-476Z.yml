@@ -1,0 +1,430 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - link "新浪股市汇" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "新浪股市汇" [ref=e7]
+      - generic [ref=e8]: 中国最主流的投资者社区
+    - generic [ref=e10]:
+      - generic [ref=e12]:
+        - link "加入收藏" [ref=e13] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - text: "|"
+        - link "新浪财经" [ref=e14] [cursor=pointer]:
+          - /url: http://finance.sina.com.cn/
+        - text: "|"
+        - link "新浪股票" [ref=e15] [cursor=pointer]:
+          - /url: http://finance.sina.com.cn/stock/
+        - text: "|"
+        - link "新浪首页" [ref=e16] [cursor=pointer]:
+          - /url: http://www.sina.com.cn/
+      - generic [ref=e17]:
+        - textbox [ref=e18]: 请输入拼音/代码/名称
+        - button "Submit" [ref=e19] [cursor=pointer]
+    - generic [ref=e21]:
+      - generic [ref=e22]: 最活跃的散户都在这里
+      - generic [ref=e27] [cursor=pointer]: 登录
+      - link "注册" [ref=e28] [cursor=pointer]:
+        - /url: https://login.sina.com.cn/signup/signup.php?entry=tieba
+  - generic [ref=e30]:
+    - link "收藏本社区" [ref=e32] [cursor=pointer]:
+      - /url: javascript:AddFavorite('http://guba.sina.com.cn/?s=bar&name=sz002866', '传艺科技');
+    - link "社区投诉" [ref=e33] [cursor=pointer]:
+      - /url: http://guba.sina.com.cn/?s=bar&name=%B0%C9%CD%B6%CB%DF
+    - link "返回传艺科技" [ref=e34] [cursor=pointer]:
+      - /url: /?s=bar&name=sz002866
+      - generic [ref=e35]: 返回传艺科技
+    - text: "您当前的位置:"
+    - generic [ref=e36]:
+      - link "新浪股市汇" [ref=e37] [cursor=pointer]:
+        - /url: /
+      - text: ">"
+      - link "A股" [ref=e38] [cursor=pointer]:
+        - /url: /?s=category&cid=1
+    - text: ">"
+    - generic [ref=e39]:
+      - link "传艺科技(sz002866)" [ref=e40] [cursor=pointer]:
+        - /url: /?s=bar&name=sz002866
+      - text: "> 浏览帖子"
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e45]:
+        - generic:
+          - link "传艺科技" [ref=e47] [cursor=pointer]:
+            - /url: http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002866
+          - link "(sz002866) 17.24 -0.43 -2.43%":
+            - /url: http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002866
+            - generic [ref=e48] [cursor=pointer]: (sz002866)
+            - generic [ref=e49] [cursor=pointer]: "17.24"
+            - emphasis [ref=e50]
+            - generic [ref=e51] [cursor=pointer]: "-0.43"
+            - generic [ref=e52] [cursor=pointer]: "-2.43%"
+        - link:
+          - /url: http://biz.finance.sina.com.cn/suggest/lookup_n.php?q=sz002866
+        - link "+关注" [ref=e53] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "投资易" [ref=e54] [cursor=pointer]:
+          - /url: https://touzi.sina.com.cn/public/stock/sz002866
+          - img "投资易" [ref=e55]
+      - generic [ref=e56]:
+        - link [ref=e58] [cursor=pointer]:
+          - /url: /u/7540927604
+          - img [ref=e59]
+        - generic [ref=e60]:
+          - link "用户7540927604" [ref=e62] [cursor=pointer]:
+            - /url: /u/7540927604
+          - heading "钠离子电池产业化加速：新能源赛道的差异化突围与产业观察" [level=4] [ref=e63]
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - paragraph
+              - paragraph [ref=e66]:
+                - img [ref=e67]
+              - paragraph
+              - paragraph [ref=e68]: 在全球能源结构转型与“双碳”目标推进的背景下，钠离子电池凭借资源优势、成本潜力与安全特性，正从技术验证迈入规模化量产的关键阶段。作为锂电池的重要互补技术路线，钠电池在储能、低速交通等场景的商业化落地加速，推动产业链格局重构。本文结合最新行业研报与公开信息，梳理钠电池行业的发展逻辑、潜在挑战及核心产业力量，为行业观察提供参考。
+              - paragraph [ref=e69]: 一、行业格局：头部引领+全链协同，中国企业主导全球产能
+              - paragraph [ref=e70]: 当前钠离子电池行业呈现“技术路线多元、头部企业领跑、产业链快速成型”的竞争格局。全球范围内，中国凭借完善的新能源制造体系与政策支持，已成为钠电池产业化的核心阵地，2025年中国占全球钠电池产能比重预计达68%，长三角、珠三角形成从材料到电芯的完整产业集群。
+              - paragraph [ref=e71]: 技术路线上，三大正极体系并行发展：层状氧化物因能量密度高（头部企业产品达175Wh/kg）、工艺成熟，成为短期内主流选择，容百科技、振华新材等企业已实现规模化供货；普鲁士蓝类材料凭借成本优势，在储能场景快速渗透，华阳股份与中科海钠共建的千吨级产线稳定运行；聚阴离子路线则以超1万次的循环寿命，成为长时储能的优选方向，鹏辉能源等企业已中标大型储能项目。负极材料方面，硬碳仍是主流技术，贝特瑞以40%的全球市占率占据核心地位，圣泉集团等企业通过生物质前驱体技术降低成本。
+              - paragraph [ref=e72]: 竞争主体分为两大阵营：一是电池制造龙头，宁德时代推出全球首款通过新国标认证的钠电池，2025年规划产能60GWh，绑定宇通、广汽埃安等车企；比亚迪、传艺科技、维科技术等紧随其后，GWh级产线陆续投产，覆盖储能与低速交通场景。二是材料企业，通过绑定下游头部客户实现突围，如容百科技成为宁德时代钠电正极核心供应商，锁定60%采购份额，天赐材料在钠电池电解液领域市占率达60%。
+              - paragraph [ref=e73]: 二、发展前景：政策+场景+成本三重驱动，千亿市场加速开启
+              - paragraph [ref=e74]: （一）政策红利持续加码
+              - paragraph [ref=e75]: 国家发改委、工信部等多部门密集出台政策，将钠电池纳入新型储能装备体系与零碳园区建设支持范围，明确推动大规模储能系统集成技术攻关。地方层面，上海、江苏等地对采购国产钠电池的企业提供最高5000万元补贴，财政部将钠电池核心材料列为关键原材料，给予进口关税减免，全方位护航产业化进程。
+              - paragraph [ref=e76]: （二）应用场景全面突破
+              - paragraph [ref=e77]: 1.储能领域：成为钠电池商业化主力，2025年上半年出货占比达57.7%，中国铁塔已采购2GWh钠电池用于基站备用电源，南网30MWh储能项目采用钠电池方案，度电成本较磷酸铁锂低15%-20%。预计2030年钠电池在新型储能中的渗透率将超20%，市场规模突破500亿元。
+              - paragraph [ref=e78]: 2.低速交通：雅迪、超威等企业推出钠电两轮车，凭借“铅酸成本+锂电性能”的优势快速渗透，江淮钇为钠电版车型续航300公里，精准匹配三四线城市短途出行需求。
+              - paragraph [ref=e79]: 3.商用车与特种场景：宁德时代钠电池适配重卡、换电车型，零下40℃低温放电保持率超90%，解决北方高寒地区续航难题，已进入一汽解放、宇通等车企供应链。
+              - paragraph [ref=e80]: （三）成本与性能持续优化
+              - paragraph [ref=e81]: 钠资源地壳丰度是锂的423倍，无需钴、镍等贵金属，使得钠电池Pack成本已降至0.41元/Wh，预计2027年将进一步降至0.3元/Wh以下。性能方面，头部企业产品循环寿命突破1万次，能量密度达175Wh/kg，支持5C快充，已满足多数场景实用需求，部分实验室产品能量密度已突破200Wh/kg。同时，钠电池与锂电池产线兼容性超80%，企业可快速切换生产，大幅降低扩产成本。
+              - paragraph [ref=e82]: 三、潜在挑战：技术、市场与供应链的三重考验
+              - paragraph [ref=e83]: （一）技术瓶颈尚未完全突破
+              - paragraph [ref=e84]: 能量密度仍是核心短板，行业主流产品能量密度集中在100-160Wh/kg，虽接近磷酸铁锂下限，但难以进入中高端乘用车市场。硬碳负极量产良率仅50%-70%，批次一致性差，普鲁士蓝正极的结晶水问题导致实际性能折损，影响大规模应用稳定性。低温性能存在争议，北美实测数据显示，部分产品在-20℃环境下容量衰减至标称值的50%，与实验室数据存在差距。
+              - paragraph [ref=e85]: （二）市场竞争与产能风险加剧
+              - paragraph [ref=e86]: 全球钠电池规划产能已超500GWh，而2025年全球需求量仅30GWh，产能过剩风险显现，可能引发价格战挤压企业利润。锂电池技术迭代持续挤压市场空间，磷酸铁锂成本下降与固态锂电突破，可能削弱钠电池的成本优势，尤其在锂价低位运行时，替代动力会明显减弱。
+              - paragraph [ref=e87]: （三）供应链与配套体系不完善
+              - paragraph [ref=e88]: 高端原材料依赖进口，光引发剂、部分溶剂国产化率不足10%，硬碳负极核心设备交付周期长达18个月。回收体系尚处于起步阶段，钠电池回收标准未明确，回收工艺不成熟，可能影响行业长期可持续发展。国际市场面临贸易壁垒，欧盟碳边境调节机制对钠电池征收每kWh 2.3欧元的隐含碳税，增加出口成本。
+              - paragraph [ref=e89]: 四、产业链核心企业：全环节布局的产业力量
+              - paragraph [ref=e90]: （一）电池制造环节
+              - paragraph [ref=e91]: 1.宁德时代：钠新电池能量密度175Wh/kg，通过新国标认证，2025年12月量产，规划产能60GWh，绑定宇通、广汽埃安等车企，换电站建设同步推进。
+              - paragraph [ref=e92]: 2.比亚迪：徐州30GWh钠电池项目落地，产品覆盖储能与低速车，与淮海控股合作推进商用车场景应用，产线可实现锂钠快速切换。
+              - paragraph [ref=e93]: 3.传艺科技：一期2GWh产线良品率92%，硬碳负极自主配套，获宁德时代战略入股，储能与两轮车市场出货量快速增长 。
+              - paragraph [ref=e94]: 4.维科技术：与钠创新能源合作，13GWh产能规划落地，钠电储能产品已交付，两轮车电池适配雅迪、爱玛等品牌 。
+              - paragraph [ref=e95]: 5.鹏辉能源：聚阴离子路线循环寿命超1万次，中标南网30MWh储能项目，低速车与户用储能场景同步拓展。
+              - paragraph [ref=e96]: 6.海四达：已建产能16GWh，其中钠电专用产能超10GWh，产品覆盖储能、特种电源，东南亚产能储备超30GWh。
+              - paragraph [ref=e97]: （二）正极材料环节
+              - paragraph [ref=e98]: 7.容百科技：层状氧化物路线领先，湖北仙桃6000吨/年产线投产，为宁德时代钠电正极核心供应商，锁定60%采购份额。
+              - paragraph [ref=e99]: 8.华阳股份：与中科海钠共建千吨级普鲁士蓝正极产线，依托煤炭资源实现全产业链降本，储能场景出货量领先 。
+              - paragraph [ref=e100]: 9.振华新材：层状氧化物实现吨级销售，客户包括宁德时代，产能规划5万吨/年，聚焦动力与储能双场景 。
+              - paragraph [ref=e101]: 10.当升科技：高镍技术延伸至钠电领域，层状氧化物正极能量密度达160Wh/kg，送样主流电池厂验证 。
+              - paragraph [ref=e102]: （三）负极材料环节
+              - paragraph [ref=e103]: 11.贝特瑞：全球硬碳负极市占率40%，独家供应宁德时代钠新电池，2025年产能规划5万吨，印尼基地加速扩产。
+              - paragraph [ref=e104]: 12.翔丰华：硬碳负极已实现批量销售，适配鹏辉能源、传艺科技等客户，成本较石墨负极低20% 。
+              - paragraph [ref=e105]: 13.圣泉集团：生物质硬碳技术领先，秸秆基材料成本低30%，供货雅迪、天能等企业，千吨级产线稳定运行。
+              - paragraph [ref=e106]: （四）电解液与隔膜环节
+              - paragraph [ref=e107]: 14.天赐材料：钠电池电解液市占率60%，六氟磷酸钠单吨成本低30%，适配储能与动力场景，绑定宁德时代供应链。
+              - paragraph [ref=e108]: 15.华盛锂电：六氟磷酸钠产能规模领先，产品通过多家电池厂验证，成本优势显著，海外市场逐步拓展 。
+              - paragraph [ref=e109]: 16.星源材质：钠电池隔膜产能规划15亿平方米，覆盖比亚迪、中科海钠等客户，孔径优化技术提升电池循环寿命。
+              - paragraph [ref=e110]: （五）设备与配套环节
+              - paragraph [ref=e111]: 17.先导智能：中标宁德时代3.8亿元钠电池产线订单，设备可通过软件升级适配钠电生产，尽享行业扩产红利。
+              - paragraph [ref=e112]: 18.阳光电源：与宁德时代合作开发钠锂混储系统，宁夏储能电站效率达92%，引领储能场景规模化应用。
+              - paragraph [ref=e113]: 结语：钠离子电池的崛起，并非对锂电池的全面替代，而是基于资源禀赋与场景需求的差异化突围。在政策支持、技术突破与成本优势的三重驱动下，行业已迈入产业化关键期，2025-2027年将是产能释放与场景验证的核心窗口期。尽管面临技术瓶颈、产能过剩与供应链不完善等挑战，但随着头部企业持续发力、产业链协同深化，钠电池有望在储能、低速交通等领域占据重要地位，成为新能源产业多元化发展的重要支撑。
+            - img [ref=e114]
+          - paragraph [ref=e116] [cursor=pointer]: 此文仅代表作者观点，点击可查看作者简介
+          - link [ref=e119] [cursor=pointer]:
+            - /url: https://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=gubatie01
+            - img [ref=e120]
+          - generic [ref=e121]:
+            - generic [ref=e122]: 2025年11月20日 08:26
+            - generic [ref=e123]: 来自电脑网页版
+            - generic [ref=e124]:
+              - emphasis [ref=e125] [cursor=pointer]
+              - text: (0)| 阅读数(1522) |
+              - generic [ref=e126] [cursor=pointer]:
+                - text: 分享
+                - generic:
+                  - generic "分享到新浪微博"
+                  - generic "分享到微信"
+                  - generic "分享到QQ空间"
+              - text: "|"
+              - link "收藏" [ref=e128] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "|"
+              - generic [ref=e129]: 回复(0)
+              - text: "|"
+              - link "举报" [ref=e131] [cursor=pointer]:
+                - /url: http://guba.sina.com.cn/?s=thread&a=report&bid=39369&tid=51343&pid=1&floor=1&title=
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - textbox [ref=e134]
+              - button "Submit" [ref=e135] [cursor=pointer]
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - text: 验证码
+                  - textbox "验证码" [ref=e138]
+                - link [ref=e139] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=e140]
+                - link "看不清,换一个" [ref=e141] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - generic [ref=e142]:
+                - link "查看版规>>" [ref=e143] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/?s=thread&tid=1015391&bid=9279&dpc=1
+                - link "我要申诉>>" [ref=e144] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/?s=block&a=complain
+            - link "3分钟开户" [ref=e146] [cursor=pointer]:
+              - /url: https://h5kh.htsec.com/indexnew/p/NDXfbn/0807001
+              - img [ref=e147]
+    - generic [ref=e148]:
+      - link [ref=e150] [cursor=pointer]:
+        - /url: https://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=gubatie03
+        - img [ref=e151]
+      - generic [ref=e153]:
+        - generic [ref=e156]:
+          - generic:
+            - generic [ref=e157]:
+              - generic [ref=e158] [cursor=pointer]:
+                - heading "百秋尚美港股IPO：TP业务增长乏力 IPO前夕上演清仓式分红6.62亿超近三年净利募资必要性存疑" [level=3] [ref=e159]:
+                  - generic [ref=e160]: 百秋尚美港股IPO：TP业务增长乏力 IPO前夕上演清仓式分红6.62亿超近三年净利募资必要性存疑
+                - generic [ref=e161]: 2026-06-05 11:23:00
+                - paragraph [ref=e162]: 出品：新浪财经上市公司研究院作者：cici头顶“古驰、万宝龙等大牌幕后管家”光环的百秋尚美，近日向港交所递表冲刺IPO。2026年4月29日，百秋尚美正式向港交所主板递交H股上市申请，中信证券(25.740, 0.15, 0.59%)为其独...
+              - generic [ref=e163] [cursor=pointer]:
+                - heading "龙丰集团港股IPO：营收连年大增却常年现金透支 家族高度控股连年高额分红 上市募资部分用于偿还贷款" [level=3] [ref=e164]:
+                  - generic [ref=e165]: 龙丰集团港股IPO：营收连年大增却常年现金透支 家族高度控股连年高额分红 上市募资部分用于偿还贷款
+                - generic [ref=e166]: 2026-06-05 11:23:00
+                - paragraph [ref=e167]: 出品：新浪财经上市公司研究院作者：喜乐2026年5月，香港本土美妆保健药品连锁品牌龙丰集团正式启动全球发售，并将于6月5日在港交所主板上市。依托香港本地消费客流回暖，公司近三年营收与毛利率稳步抬升，在香港细分零售赛道稳居行业前列，全渠道布局...
+              - generic [ref=e168] [cursor=pointer]:
+                - heading "创想三维港股IPO：消费级3D打印第一股 龙头光环褪色陷第二梯队 收入高增钱难赚 经调整净利持续收窄" [level=3] [ref=e169]:
+                  - generic [ref=e170]: 创想三维港股IPO：消费级3D打印第一股 龙头光环褪色陷第二梯队 收入高增钱难赚 经调整净利持续收窄
+                - generic [ref=e171]: 2026-05-28 16:52:00
+                - paragraph [ref=e172]: 出品：新浪财经上市公司研究院作者：喜乐 2026年5月20日，全球领先的消费级3D打印产品及服务提供商——创想三维科技股份有限公司正式启动港股全球发售。公司2025年实现营业总收入31.3亿元，同比增速达36.7%，更顶着港股“消费级3D...
+              - generic [ref=e173] [cursor=pointer]:
+                - heading "鸿富诚IPO：“补流+储备资金”募资额合计占比超45%是否合规？华源证券保荐“独苗”成色待考" [level=3] [ref=e174]:
+                  - generic [ref=e175]: 鸿富诚IPO：“补流+储备资金”募资额合计占比超45%是否合规？华源证券保荐“独苗”成色待考
+                - generic [ref=e176]: 2026-05-28 16:52:00
+                - paragraph [ref=e177]: 出品：新浪财经上市公司研究院作者：IPO再融资组/图灵 5月26日，深圳市鸿富诚新材料股份有限公司（以下简称“鸿富诚”）已披露了第二轮问询回复公告，继续推进创业板IPO进程，保荐券商为华源证券。 鸿富诚此次IPO拟募资12.2亿元，其中...
+            - generic [ref=e178]:
+              - generic [ref=e179] [cursor=pointer]:
+                - heading "百秋尚美港股IPO：TP业务增长乏力 IPO前夕上演清仓式分红6.62亿超近三年净利募资必要性存疑" [level=3] [ref=e180]:
+                  - generic [ref=e181]: 百秋尚美港股IPO：TP业务增长乏力 IPO前夕上演清仓式分红6.62亿超近三年净利募资必要性存疑
+                - generic [ref=e182]: 2026-06-05 11:23:00
+                - paragraph [ref=e183]: 出品：新浪财经上市公司研究院作者：cici头顶“古驰、万宝龙等大牌幕后管家”光环的百秋尚美，近日向港交所递表冲刺IPO。2026年4月29日，百秋尚美正式向港交所主板递交H股上市申请，中信证券(25.740, 0.15, 0.59%)为其独...
+              - generic [ref=e184] [cursor=pointer]:
+                - heading "龙丰集团港股IPO：营收连年大增却常年现金透支 家族高度控股连年高额分红 上市募资部分用于偿还贷款" [level=3] [ref=e185]:
+                  - generic [ref=e186]: 龙丰集团港股IPO：营收连年大增却常年现金透支 家族高度控股连年高额分红 上市募资部分用于偿还贷款
+                - generic [ref=e187]: 2026-06-05 11:23:00
+                - paragraph [ref=e188]: 出品：新浪财经上市公司研究院作者：喜乐2026年5月，香港本土美妆保健药品连锁品牌龙丰集团正式启动全球发售，并将于6月5日在港交所主板上市。依托香港本地消费客流回暖，公司近三年营收与毛利率稳步抬升，在香港细分零售赛道稳居行业前列，全渠道布局...
+              - generic [ref=e189] [cursor=pointer]:
+                - heading "创想三维港股IPO：消费级3D打印第一股 龙头光环褪色陷第二梯队 收入高增钱难赚 经调整净利持续收窄" [level=3] [ref=e190]:
+                  - generic [ref=e191]: 创想三维港股IPO：消费级3D打印第一股 龙头光环褪色陷第二梯队 收入高增钱难赚 经调整净利持续收窄
+                - generic [ref=e192]: 2026-05-28 16:52:00
+                - paragraph [ref=e193]: 出品：新浪财经上市公司研究院作者：喜乐 2026年5月20日，全球领先的消费级3D打印产品及服务提供商——创想三维科技股份有限公司正式启动港股全球发售。公司2025年实现营业总收入31.3亿元，同比增速达36.7%，更顶着港股“消费级3D...
+              - generic [ref=e194] [cursor=pointer]:
+                - heading "鸿富诚IPO：“补流+储备资金”募资额合计占比超45%是否合规？华源证券保荐“独苗”成色待考" [level=3] [ref=e195]:
+                  - generic [ref=e196]: 鸿富诚IPO：“补流+储备资金”募资额合计占比超45%是否合规？华源证券保荐“独苗”成色待考
+                - generic [ref=e197]: 2026-05-28 16:52:00
+                - paragraph [ref=e198]: 出品：新浪财经上市公司研究院作者：IPO再融资组/图灵 5月26日，深圳市鸿富诚新材料股份有限公司（以下简称“鸿富诚”）已披露了第二轮问询回复公告，继续推进创业板IPO进程，保荐券商为华源证券。 鸿富诚此次IPO拟募资12.2亿元，其中...
+        - generic [ref=e204]:
+          - heading "关注公众号查看全文" [level=2] [ref=e205]
+          - generic [ref=e206]:
+            - generic "券商基金" [ref=e207]
+            - generic [ref=e208]:
+              - heading "公司资本论" [level=3] [ref=e209]
+              - paragraph [ref=e210]: 扫一扫 关注我
+      - generic [ref=e211]:
+        - generic [ref=e213]: 传艺科技社区热门贴
+        - list [ref=e215]:
+          - listitem [ref=e216]:
+            - link "定向增发就是在剥夺原有股东的权益" [ref=e217] [cursor=pointer]:
+              - /url: /?s=thread&bid=39369&tid=51458
+          - listitem [ref=e218]:
+            - link "传艺科技2026年6月4日跌停分析" [ref=e219] [cursor=pointer]:
+              - /url: /?s=thread&bid=39369&tid=51459
+          - listitem [ref=e220]:
+            - link "我看多 传艺科技(SZ002866)[我" [ref=e221] [cursor=pointer]:
+              - /url: /?s=thread&bid=39369&tid=51461
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - generic [ref=e224]: 新浪推荐
+          - link "换一换" [ref=e226] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - link [ref=e231] [cursor=pointer]:
+              - /url: http://guba.sina.com.cn/u/2092108204
+              - img [ref=e232]
+            - generic [ref=e233]:
+              - heading "拥抱大牛市" [level=4] [ref=e234]:
+                - link "拥抱大牛市" [ref=e235] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/u/2092108204
+              - paragraph [ref=e236]: 职业投资人
+            - link "加关注" [ref=e238] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e239]:
+            - link [ref=e241] [cursor=pointer]:
+              - /url: http://guba.sina.com.cn/u/5115355783
+              - img [ref=e242]
+            - generic [ref=e243]:
+              - heading "飞杨看市168 新浪个人认证" [level=4] [ref=e244]:
+                - link "飞杨看市168" [ref=e245] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/u/5115355783
+                - link "新浪个人认证" [ref=e246] [cursor=pointer]:
+                  - /url: /?s=user&a=apply_vip
+                  - generic "新浪个人认证" [ref=e247]
+              - paragraph [ref=e248]: 职业投资人
+            - link "加关注" [ref=e250] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e251]:
+            - link [ref=e253] [cursor=pointer]:
+              - /url: http://guba.sina.com.cn/u/5128444002
+              - img [ref=e254]
+            - generic [ref=e255]:
+              - heading "老黄股市实战 新浪个人认证" [level=4] [ref=e256]:
+                - link "老黄股市实战" [ref=e257] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/u/5128444002
+                - link "新浪个人认证" [ref=e258] [cursor=pointer]:
+                  - /url: /?s=user&a=apply_vip
+                  - generic "新浪个人认证" [ref=e259]
+              - paragraph [ref=e260]: 职业投资人
+            - link "加关注" [ref=e262] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e263]:
+            - link [ref=e265] [cursor=pointer]:
+              - /url: http://guba.sina.com.cn/u/5128337823
+              - img [ref=e266]
+            - generic [ref=e267]:
+              - heading "马上钧看市 新浪个人认证" [level=4] [ref=e268]:
+                - link "马上钧看市" [ref=e269] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/u/5128337823
+                - link "新浪个人认证" [ref=e270] [cursor=pointer]:
+                  - /url: /?s=user&a=apply_vip
+                  - generic "新浪个人认证" [ref=e271]
+              - paragraph [ref=e272]: 职业投资人
+            - link "加关注" [ref=e274] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e275]:
+            - link [ref=e277] [cursor=pointer]:
+              - /url: http://guba.sina.com.cn/u/3960628657
+              - img [ref=e278]
+            - generic [ref=e279]:
+              - heading "K线狙击手 新浪个人认证" [level=4] [ref=e280]:
+                - link "K线狙击手" [ref=e281] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/u/3960628657
+                - link "新浪个人认证" [ref=e282] [cursor=pointer]:
+                  - /url: /?s=user&a=apply_vip
+                  - generic "新浪个人认证" [ref=e283]
+              - paragraph [ref=e284]: 职业投资人
+            - link "加关注" [ref=e286] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e287]:
+            - link [ref=e289] [cursor=pointer]:
+              - /url: http://guba.sina.com.cn/u/2910812187
+              - img [ref=e290]
+            - generic [ref=e291]:
+              - heading "北京红竹 新浪个人认证" [level=4] [ref=e292]:
+                - link "北京红竹" [ref=e293] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/u/2910812187
+                - link "新浪个人认证" [ref=e294] [cursor=pointer]:
+                  - /url: /?s=user&a=apply_vip
+                  - generic "新浪个人认证" [ref=e295]
+              - paragraph [ref=e296]: 微博股评师
+            - link "加关注" [ref=e298] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e299]:
+            - link [ref=e301] [cursor=pointer]:
+              - /url: http://guba.sina.com.cn/u/5749445393
+              - img [ref=e302]
+            - generic [ref=e303]:
+              - heading "牛股有道 新浪个人认证" [level=4] [ref=e304]:
+                - link "牛股有道" [ref=e305] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn/u/5749445393
+                - link "新浪个人认证" [ref=e306] [cursor=pointer]:
+                  - /url: /?s=user&a=apply_vip
+                  - generic "新浪个人认证" [ref=e307]
+              - paragraph [ref=e308]: 职业投资人
+            - link "加关注" [ref=e310] [cursor=pointer]:
+              - /url: javascript:void(0)
+      - generic [ref=e311]:
+        - generic [ref=e313]: 其他服务
+        - generic [ref=e315]:
+          - text: 如果你使用中遇到困难请联系，
+          - link "@新浪股市汇" [ref=e316] [cursor=pointer]:
+            - /url: http://e.weibo.com/gubashi
+  - generic [ref=e318]:
+    - list [ref=e319]:
+      - listitem [ref=e320]: 客户服务热线：4001102288 欢迎批评指正
+      - listitem [ref=e321]:
+        - link "常见问题解答" [ref=e322] [cursor=pointer]:
+          - /url: http://help.sina.com.cn/
+        - link "互联网违法和不良信息举报" [ref=e323] [cursor=pointer]:
+          - /url: http://net.china.cn/chinese/index.htm
+        - link "新浪财经意见反馈留言板" [ref=e324] [cursor=pointer]:
+          - /url: https://gu.sina.cn/pc/feedback/
+      - listitem
+      - listitem [ref=e325]:
+        - link "新浪简介" [ref=e326] [cursor=pointer]:
+          - /url: http://corp.sina.com.cn/chn/
+        - text: "|"
+        - link "About Sina" [ref=e327] [cursor=pointer]:
+          - /url: http://corp.sina.com.cn/eng/
+        - text: "|"
+        - link "广告服务" [ref=e328] [cursor=pointer]:
+          - /url: http://emarketing.sina.com.cn/
+        - text: "|"
+        - link "联系我们" [ref=e329] [cursor=pointer]:
+          - /url: http://www.sina.com.cn/contactus.html
+        - text: "|"
+        - link "招聘信息" [ref=e330] [cursor=pointer]:
+          - /url: http://corp.sina.com.cn/chn/sina_job.html
+        - text: "|"
+        - link "网站律师" [ref=e331] [cursor=pointer]:
+          - /url: http://www.sina.com.cn/intro/lawfirm.shtml
+        - text: "|"
+        - link "SINA English" [ref=e332] [cursor=pointer]:
+          - /url: http://english.sina.com
+        - text: "|"
+        - link "会员注册" [ref=e333] [cursor=pointer]:
+          - /url: http://members.sina.com.cn/apply/
+        - text: "|"
+        - link "产品答疑" [ref=e334] [cursor=pointer]:
+          - /url: http://help.sina.com.cn/
+      - listitem [ref=e335]: Copyright ©1996-2026 SINA Corporation, All Rights Reserved
+      - listitem [ref=e336]:
+        - text: 新浪公司
+        - link "版权所有" [ref=e337] [cursor=pointer]:
+          - /url: http://www.sina.com.cn/intro/copyright.shtml
+    - generic [ref=e338]:
+      - text: 新浪财经免费提供股票、基金、债券、外汇等行情数据以及其他资料均来自相关合作方，仅作为用户获取信息之目的，并不构成投资建议。
+      - text: 新浪财经以及其合作机构不为本页面提供信息的错误、残缺、延迟或因依靠此信息所采取的任何行动负责。市场有风险，投资需谨慎。
+  - iframe [ref=e339]: <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://1418.adsina.allyes.com/main/adfshow?user=AFP6_for_SINA|Finance|Finance_guba_zhengwen_pv&db=sina&local=yes&js=on"></SCRIPT> <NOSCRIPT><A HREF="http://1418.adsina.allyes.com/main/adfclick?user=AFP6_for_SINA|Finance|Finance_guba_zhengwen_pv&db=sina"><IMG SRC="http://1418.adsina.allyes.com/main/adfshow?user=AFP6_for_SINA|Finance|Finance_guba_zhengwen_pv&db=sina" WIDTH=1 HEIGHT=1 BORDER=0></a></NOSCRIPT>:
+    
+  - generic [ref=e340]:
+    - link "×" [ref=e342] [cursor=pointer]:
+      - /url: javascript:;
+    - generic [ref=e343]:
+      - generic [ref=e344]: 新浪微博、博客、邮箱账号，请直接登录
+      - paragraph [ref=e345]
+      - list [ref=e346]:
+        - listitem [ref=e347]:
+          - textbox "微博/博客/邮箱/手机号" [ref=e348]
+        - listitem [ref=e349]:
+          - textbox "请输入密码" [ref=e350]
+        - listitem [ref=e351]:
+          - generic [ref=e352]:
+            - link "登录" [ref=e353] [cursor=pointer]:
+              - /url: javascript:;
+            - generic [ref=e354]:
+              - checkbox "下次自动登录" [checked] [ref=e355]
+              - text: 下次自动登录
+        - listitem [ref=e356]:
+          - generic [ref=e357]:
+            - link "忘记密码" [ref=e358] [cursor=pointer]:
+              - /url: https://login.sina.com.cn/getpass.html
+            - link "立即注册" [ref=e359] [cursor=pointer]:
+              - /url: https://login.sina.com.cn/signup/signup.php?entry=tieba
+        - listitem [ref=e360]:
+          - link "使用QQ登录" [ref=e362] [cursor=pointer]:
+            - /url: https://passport.weibo.com/othersitebind/authorize?site=qq&wl=1&entry=tieba&callback=https%3A%2F%2Fguba.sina.com.cn%2F%3Fs%3Dthread%26tid%3D51343%26bid%3D39369
+            - text: 使用QQ登录
+    - generic [ref=e364]:
+      - generic [ref=e365]: 请用最新版微博客户端扫码
+      - link [ref=e367] [cursor=pointer]:
+        - /url: javascript:;
+        - img [ref=e368]

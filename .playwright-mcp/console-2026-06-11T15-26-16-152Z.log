@@ -1,0 +1,13 @@
+[     288ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://fxsjcj.kaipuyun.cn/count/10005970/10005970.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:24
+[     289ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://fxsjcj.kaipuyun.cn/count/10005970/10005970.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:24
+[     290ms] [LOG] 0 @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:55
+[     291ms] [LOG] 0 @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:55
+[     291ms] [LOG] 0 @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:55
+[     291ms] [LOG] 0 @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:55
+[     291ms] [LOG] 0 @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:55
+[     291ms] [LOG] 0 @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:55
+[     291ms] [LOG] 0 @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:55
+[     291ms] [LOG] 0 @ https://www.ndrc.gov.cn/jslm/wapfooter/wapfooter.js:55
+[     392ms] [LOG] 1:yeefx 易分析SDK版本 = 20230824 @ https://fxsjcj.kaipuyun.cn/yeefxkpycount.js:0
+[     392ms] [LOG] 2:yeefx 站点id = 10005970, cookie = 20260611232616543255438602338988, pageid = 1781191576540315 @ https://fxsjcj.kaipuyun.cn/yeefxkpycount.js:0
+[     394ms] [LOG] 3:yeefx 88 < 5 体验概率不满足 @ https://fxsjcj.kaipuyun.cn/yeefxkpycount.js:0
