@@ -1,6 +1,0 @@
-[     719ms] [LOG] Thu Jun 11 2026 23:24:42 GMT+0800 (中国标准时间) @ https://xueqiu.com/u21pn7x6/r8lw5pzu/psk8uqfi:0
-[    1019ms] [LOG] Thu Jun 11 2026 23:24:42 GMT+0800 (中国标准时间) @ https://o.alicdn.com/frontend-lib/common-lib/jquery.min.js:0
-[    1220ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://assets.imedao.com/ugc/js/vue-article-f8cfeb3b72.js:1
-[    1220ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://assets.imedao.com/ugc/js/vue-article-f8cfeb3b72.js:1
-[    1710ms] [LOG] 配置 {autoPopLimit: undefined, autoPopExpires: undefined, __ob__: Ct} @ https://assets.imedao.com/ugc/js/raven-ff524be6f0.min.js:1
-[    2001ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://xueqiu.com/2323542858/392691370:0
