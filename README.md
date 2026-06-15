@@ -48,10 +48,6 @@ venv312\Scripts\python -m knowledge.collect_official
 PYTHONIOENCODING=utf-8 venv312\Scripts\python api_server.py
 # 打开 http://localhost:8000
 
-# 命令行
-venv312\Scripts\python main.py --query "钠离子电池储能技术经济性分析"
-```
-
 ## 核心能力
 
 | 模块 | 功能 |
