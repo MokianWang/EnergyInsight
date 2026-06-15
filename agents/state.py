@@ -3,7 +3,7 @@ EnergyInsight 全局状态定义
 所有 Agent 共享此状态，通过 LangGraph StateGraph 传递
 """
 
-from typing import TypedDict, Optional, Annotated
+from typing import TypedDict, Annotated
 from langgraph.graph.message import add_messages
 
 
@@ -59,6 +59,10 @@ class ResearchState(TypedDict):
     review_passed: bool               # 是否通过审查
     review_round: int                 # 当前审查轮次（最多 MAX_REVIEW_ROUNDS）
     hallucination_issues: list[str]   # 检测到的幻觉问题列表
+
+    # ===== 动态重规划 (Step 4) =====
+    replan_count: int                 # 当前重规划轮次
+    information_sufficiency: dict[str, str]  # key=子问题ID, value=sufficient/insufficient
 
     # ===== 系统 =====
     messages: Annotated[list, add_messages]  # Agent 交互消息记录

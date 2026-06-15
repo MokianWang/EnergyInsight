@@ -1,0 +1,500 @@
+{"claim": "Report shows TOPCon mass production efficiency >25% [id:82]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "Official: China wind cumulative 520GW by 2024 [id:56]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "support", "source": "para"}
+{"claim": "Reportedly, AI market $1.5T by 2030 [id:469]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Grain output stable >650Mt 8 years [id:367]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Grain output stable >650Mt 8 years [id:496]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Distributed PV ~40% of China total PV [id:283]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "rebut", "source": "cross"}
+{"claim": "2025 stats: China NEV sales >12M 2024 [id:127]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "para"}
+{"claim": "Storage system efficiency 85-95.0 GW [id:230]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "perturb"}
+{"claim": "Offshore wind turbine 16-100.0 MW [id:240]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: 5G base stations >4M [id:427]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Official: RE with storage mandate 10-20% [id:165]", "evidence": "NEA 2023: RE projects storage 10-20%", "label": "support", "source": "para"}
+{"claim": "Reportedly, NEV penetration >50% mainstream [id:478]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Sodium-ion battery cost 0.5-0.4 CNY/Wh [id:189]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "rebut", "source": "perturb"}
+{"claim": "CATL #1 battery maker 7.4 % global share [id:262]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "perturb"}
+{"claim": "Reportedly, Railway mileage >160k km [id:363]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "TOPCon mass production efficiency >25% [id:276]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "rebut", "source": "cross"}
+{"claim": "Perovskite tandem cell lab efficiency 6.6 % [id:198]", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: Railway mileage >160k km [id:399]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Official: Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:100]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "US IRA $369B energy climate investment [id:316]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "rebut", "source": "cross"}
+{"claim": "General knowledge: Global semiconductor market $600B growth 15% [id:383]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Official: Offshore wind turbine 16-20MW [id:35]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "support", "source": "para"}
+{"claim": "EU carbon price 60-80 EUR/ton 2024 [id:325]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "rebut", "source": "cross"}
+{"claim": "Solar LCOE range 0.15-0.40 CNY/kWh [id:324]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "rebut", "source": "cross"}
+{"claim": "14th FYP storage target >30GW [id:340]", "evidence": "GB/T 36276: storage Li-ion cycle >=6000", "label": "rebut", "source": "cross"}
+{"claim": "CATL #1 battery maker 7.4 % global share [id:253]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "perturb"}
+{"claim": "Authority: Vanadium flow battery cost 2-3 CNY/Wh [id:116]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "In non-energy context, Data center electricity 1000TWh 2026 [id:412]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, Global semiconductor market $600B growth 15% [id:445]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: NEV penetration >50% mainstream [id:433]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, NEV penetration >50% mainstream [id:406]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, Smartphone shipments 1.5B 2025 [id:431]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "V2G enables bidirectional EV-grid charging [id:304]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "rebut", "source": "cross"}
+{"claim": "In non-energy context, AI market $1.5T by 2030 [id:358]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: NEV penetration >50% mainstream [id:375]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Report shows Vanadium flow battery cost 2-3 CNY/Wh [id:104]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "Official: China carbon market covers ~5Bt CO2 [id:124]", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "support", "source": "para"}
+{"claim": "In non-energy context, Grain output stable >650Mt 8 years [id:444]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Per data, TOPCon mass production efficiency >25% [id:83]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "2025 stats: China NEV sales >12M 2024 [id:135]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "para"}
+{"claim": "Official: TOPCon mass production efficiency >25% [id:31]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "Latest news: Railway mileage >160k km [id:453]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Report shows Distributed PV ~40% of China total PV [id:146]", "evidence": "NEA 2024: distributed PV ~42%", "label": "support", "source": "para"}
+{"claim": "Data: China NEV sales >12M 2024 [id:97]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "para"}
+{"claim": "TOPCon mass production efficiency >12.5 % [id:216]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "rebut", "source": "perturb"}
+{"claim": "Report shows CAES suitable for >100MW/>4h LDES [id:80]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "para"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:368]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "CATL #1 battery maker 370.0 % global share [id:265]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "perturb"}
+{"claim": "14th FYP storage target >6.0 GW [id:178]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "rebut", "source": "perturb"}
+{"claim": "Reportedly, Global semiconductor market $600B growth 15% [id:459]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "CATL #1 battery maker 37% global share [id:314]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "rebut", "source": "cross"}
+{"claim": "Data: Wind LCOE 0.15-0.35 CNY/kWh [id:59]", "evidence": "IRENA 2025: China wind LCOE 0.15-0.30 CNY/kWh", "label": "support", "source": "para"}
+{"claim": "Storage lithium battery cycle life 6000-8000", "evidence": "GB/T 36276: storage Li-ion cycle >=6000", "label": "support", "source": "known"}
+{"claim": "China carbon price ~80 CNY/ton 2024 avg [id:279]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "rebut", "source": "cross"}
+{"claim": "In non-energy context, NEV penetration >50% mainstream [id:387]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, NEV penetration >50% mainstream [id:419]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Statistics: 14th FYP storage target >30GW [id:169]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "support", "source": "para"}
+{"claim": "China is largest PV manufacturer >40.0 % global capacity [id:249]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "rebut", "source": "perturb"}
+{"claim": "Solar LCOE range 0.15-0.40 CNY/kWh [id:274]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "cross"}
+{"claim": "China carbon market covers ~5Bt CO2", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "support", "source": "known"}
+{"claim": "Data: Lithium battery >95% of new energy storage [id:167]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "support", "source": "para"}
+{"claim": "Global semiconductor market $600B growth 15% [id:341]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "extra"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:484]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China NEV sales >36.0 M 2024 [id:209]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "perturb"}
+{"claim": "Wind LCOE 0.15-0.35 CNY/kWh", "evidence": "IRENA 2025: China wind LCOE 0.15-0.30 CNY/kWh", "label": "support", "source": "known"}
+{"claim": "Offshore wind turbine 16-20MW", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "support", "source": "known"}
+{"claim": "China wind cumulative 510.0 GW by 2024 [id:219]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: NEV penetration >50% mainstream [id:475]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Authority: 14th FYP storage target >30GW [id:125]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "support", "source": "para"}
+{"claim": "China NEV sales >12M 2024", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "known"}
+{"claim": "Latest news: AI market $1.5T by 2030 [id:352]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Data center electricity 1000TWh 2026 [id:349]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "extra"}
+{"claim": "Solar LCOE range 0.15-0.40 CNY/kWh [id:275]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "cross"}
+{"claim": "In non-energy context, Railway mileage >160k km [id:481]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "2025 stats: Storage system efficiency 85-95% [id:155]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "support", "source": "para"}
+{"claim": "Reportedly, Steel output hits 2Bt record 2025 [id:353]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "14th FYP storage target >30GW [id:299]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "cross"}
+{"claim": "Latest news: Data center electricity 1000TWh 2026 [id:483]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, 5G base stations >4M [id:472]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Report shows China NEV sales >12M 2024 [id:34]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "para"}
+{"claim": "Data: China wind cumulative 520GW by 2024 [id:49]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "support", "source": "para"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:449]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: Steel output hits 2Bt record 2025 [id:416]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, Smartphone shipments 1.5B 2025 [id:420]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "EU carbon price 60-160.0 EUR/ton 2024 [id:244]", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "rebut", "source": "perturb"}
+{"claim": "In non-energy context, Grain output stable >650Mt 8 years [id:468]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "NEV penetration >50% mainstream [id:344]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "extra"}
+{"claim": "EU carbon price 60-80 EUR/ton 2024 [id:285]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "rebut", "source": "cross"}
+{"claim": "Statistics: China NEV sales >12M 2024 [id:52]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "para"}
+{"claim": "Latest news: Smartphone shipments 1.5B 2025 [id:479]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China is largest PV manufacturer >80.0 GW global capacity [id:236]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "rebut", "source": "perturb"}
+{"claim": "CATL #1 battery maker 37% global share", "evidence": "SNE Research 2024: CATL 37.1%", "label": "support", "source": "known"}
+{"claim": "Research: China carbon market covers ~5Bt CO2 [id:41]", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "support", "source": "para"}
+{"claim": "China carbon market covers ~5Bt CO2 [id:273]", "evidence": "US Congress 2022: IRA $369B", "label": "rebut", "source": "cross"}
+{"claim": "Perovskite tandem cell lab efficiency 16.5 % [id:176]", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "rebut", "source": "perturb"}
+{"claim": "EU CBAM effective 2026 [id:318]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "rebut", "source": "cross"}
+{"claim": "Latest news: Data center electricity 1000TWh 2026 [id:429]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Distributed PV ~4.0 % of China total PV [id:193]", "evidence": "NEA 2024: distributed PV ~42%", "label": "rebut", "source": "perturb"}
+{"claim": "Storage system efficiency 85-85.0 % [id:190]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "perturb"}
+{"claim": "BYD 2024 NEV sales >4M [id:301]", "evidence": "SGCC 2025 V2G pilot: bidir efficiency >90%", "label": "rebut", "source": "cross"}
+{"claim": "Report shows V2G enables bidirectional EV-grid charging [id:166]", "evidence": "SGCC 2025 V2G pilot: bidir efficiency >90%", "label": "support", "source": "para"}
+{"claim": "China wind cumulative 510.0 GW by 2024 [id:251]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "rebut", "source": "perturb"}
+{"claim": "EU carbon price 60-800.0 EUR/ton 2024 [id:172]", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "rebut", "source": "perturb"}
+{"claim": "Data: TOPCon mass production efficiency >25% [id:162]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "Per data, CAES suitable for >100MW/>4h LDES [id:163]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "para"}
+{"claim": "Data: China new energy storage cumulative 60GW by 2024 [id:120]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "support", "source": "para"}
+{"claim": "Authority: Storage system efficiency 85-95% [id:128]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "support", "source": "para"}
+{"claim": "General knowledge: AI market $1.5T by 2030 [id:448]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Grain output stable >650Mt 8 years [id:354]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China carbon price ~800.0 CNY/ton 2024 avg [id:229]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "rebut", "source": "perturb"}
+{"claim": "In non-energy context, Steel output hits 2Bt record 2025 [id:365]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Global semiconductor market $600B growth 15% [id:394]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "CAES suitable for >50.0 MW/>4h LDES [id:252]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "rebut", "source": "perturb"}
+{"claim": "Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:297]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "cross"}
+{"claim": "14th FYP storage target >30GW [id:328]", "evidence": "US Congress 2022: IRA $369B", "label": "rebut", "source": "cross"}
+{"claim": "General knowledge: Grain output stable >650Mt 8 years [id:391]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Railway mileage >160k km [id:438]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: Grain output stable >650Mt 8 years [id:456]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China carbon market covers ~5Bt CO2 [id:327]", "evidence": "NEA 2024: distributed PV ~42%", "label": "rebut", "source": "cross"}
+{"claim": "Onshore wind turbine 2-50.0 MW typical [id:174]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "perturb"}
+{"claim": "Official: Vanadium flow battery cost 2-3 CNY/Wh [id:73]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "Latest news: Data center electricity 1000TWh 2026 [id:366]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "EU carbon price 60-80 EUR/ton 2024 [id:282]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "rebut", "source": "cross"}
+{"claim": "Lithium battery >475.0 % of new energy storage [id:191]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "rebut", "source": "perturb"}
+{"claim": "Distributed PV ~40% of China total PV [id:302]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "rebut", "source": "cross"}
+{"claim": "China carbon price ~40.0 CNY/ton 2024 avg [id:269]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "rebut", "source": "perturb"}
+{"claim": "China new energy storage cumulative 600.0 GW by 2024 [id:177]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "rebut", "source": "perturb"}
+{"claim": "China PV cumulative installed 890GW by 2024 [id:338]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "rebut", "source": "cross"}
+{"claim": "Latest news: Aging population >300M over 60 [id:360]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China carbon market covers ~5Bt CO2 [id:277]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "rebut", "source": "cross"}
+{"claim": "Data: TOPCon mass production efficiency >25% [id:140]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "2025 stats: Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:69]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "China NEV sales >120.0 M 2024 [id:250]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "perturb"}
+{"claim": "Per data, Vanadium flow battery cost 2-3 CNY/Wh [id:76]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "Latest news: Steel output hits 2Bt record 2025 [id:413]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: Railway mileage >160k km [id:454]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Vanadium flow battery cost 2-3 CNY/Wh [id:295]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "rebut", "source": "cross"}
+{"claim": "Data: RE with storage mandate 10-20% [id:78]", "evidence": "NEA 2023: RE projects storage 10-20%", "label": "support", "source": "para"}
+{"claim": "General knowledge: Aging population >300M over 60 [id:462]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Storage system efficiency 85-47.5 % [id:245]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: NEV penetration >50% mainstream [id:374]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Official: Lithium battery >95% of new energy storage [id:160]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "support", "source": "para"}
+{"claim": "In non-energy context, Grain output stable >650Mt 8 years [id:490]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Lithium battery >95% of new energy storage [id:337]", "evidence": "IRENA 2025: China wind LCOE 0.15-0.30 CNY/kWh", "label": "rebut", "source": "cross"}
+{"claim": "Authority: EU CBAM effective 2026 [id:84]", "evidence": "EU Commission 2023: CBAM Jan 1 2026", "label": "support", "source": "para"}
+{"claim": "Distributed PV ~60.0 % of China total PV [id:224]", "evidence": "NEA 2024: distributed PV ~42%", "label": "rebut", "source": "perturb"}
+{"claim": "In non-energy context, Smartphone shipments 1.5B 2025 [id:488]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: Railway mileage >160k km [id:398]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, NEV penetration >50% mainstream [id:442]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Data: Storage lithium battery cycle life 6000-8000 [id:110]", "evidence": "GB/T 36276: storage Li-ion cycle >=6000", "label": "support", "source": "para"}
+{"claim": "Reportedly, Smartphone shipments 1.5B 2025 [id:435]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, Global semiconductor market $600B growth 15% [id:464]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, Aging population >300M over 60 [id:491]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Smartphone shipments 1.5B 2025 [id:404]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: AI market $1.5T by 2030 [id:396]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: Railway mileage >160k km [id:392]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, Grain output stable >650Mt 8 years [id:458]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "BYD 2024 NEV sales >4M [id:315]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "rebut", "source": "cross"}
+{"claim": "Smartphone shipments 1.5B 2025 [id:350]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "extra"}
+{"claim": "Research: Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:46]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "China pledges 2030 carbon peak, 2060 carbon neutral", "evidence": "President Xi UN 2020 dual carbon goals", "label": "support", "source": "known"}
+{"claim": "In non-energy context, Aging population >300M over 60 [id:423]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China NEV sales >36.0 M 2024 [id:254]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "perturb"}
+{"claim": "2025 stats: BYD 2024 NEV sales >4M [id:115]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "support", "source": "para"}
+{"claim": "Lithium battery >95% of new energy storage [id:284]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "rebut", "source": "cross"}
+{"claim": "Research: China carbon market covers ~5Bt CO2 [id:138]", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "support", "source": "para"}
+{"claim": "Sodium-ion battery cost 0.5-0.8 CNY/Wh", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "support", "source": "known"}
+{"claim": "Per data, China carbon price ~80 CNY/ton 2024 avg [id:109]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "support", "source": "para"}
+{"claim": "General knowledge: Data center electricity 1000TWh 2026 [id:410]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Authority: Vanadium flow battery cost 2-3 CNY/Wh [id:114]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "Data: EU CBAM effective 2026 [id:123]", "evidence": "EU Commission 2023: CBAM Jan 1 2026", "label": "support", "source": "para"}
+{"claim": "Latest news: AI market $1.5T by 2030 [id:492]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Research: China pledges 2030 carbon peak, 2060 carbon neutral [id:112]", "evidence": "President Xi UN 2020 dual carbon goals", "label": "support", "source": "para"}
+{"claim": "China is largest PV manufacturer >80.0 GW global capacity [id:214]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: Aging population >300M over 60 [id:486]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, Railway mileage >160k km [id:351]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, Global semiconductor market $600B growth 15% [id:384]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:395]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Data: Lithium battery >95% of new energy storage [id:43]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "support", "source": "para"}
+{"claim": "Solar LCOE range 0.15-0.4 GW [id:205]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "rebut", "source": "perturb"}
+{"claim": "Per data, China new energy storage cumulative 60GW by 2024 [id:94]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "support", "source": "para"}
+{"claim": "Authority: RE with storage mandate 10-20% [id:32]", "evidence": "NEA 2023: RE projects storage 10-20%", "label": "support", "source": "para"}
+{"claim": "Perovskite tandem cell lab efficiency 33% [id:278]", "evidence": "GB/T 36276: storage Li-ion cycle >=6000", "label": "rebut", "source": "cross"}
+{"claim": "Solar LCOE range 0.15-0.40 CNY/kWh", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "support", "source": "known"}
+{"claim": "Latest news: NEV penetration >50% mainstream [id:452]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Data: Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:154]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "2025 stats: Lithium battery >95% of new energy storage [id:121]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "support", "source": "para"}
+{"claim": "2025 stats: Lithium battery >95% of new energy storage [id:107]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "support", "source": "para"}
+{"claim": "China is largest PV manufacturer >80% global capacity", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "support", "source": "known"}
+{"claim": "Report shows China NEV sales >12M 2024 [id:137]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "para"}
+{"claim": "2025 stats: Solar LCOE range 0.15-0.40 CNY/kWh [id:136]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "support", "source": "para"}
+{"claim": "Data: Onshore wind turbine 2-10MW typical [id:139]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "support", "source": "para"}
+{"claim": "Statistics: China wind cumulative 520GW by 2024 [id:88]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "support", "source": "para"}
+{"claim": "Official: Wind LCOE 0.15-0.35 CNY/kWh [id:96]", "evidence": "IRENA 2025: China wind LCOE 0.15-0.30 CNY/kWh", "label": "support", "source": "para"}
+{"claim": "TOPCon mass production efficiency >25%", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "known"}
+{"claim": "Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:298]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "cross"}
+{"claim": "CATL #1 battery maker 74.0 % global share [id:243]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "perturb"}
+{"claim": "Latest news: Aging population >300M over 60 [id:371]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Distributed PV ~40% of China total PV [id:290]", "evidence": "NEA 2023: RE projects storage 10-20%", "label": "rebut", "source": "cross"}
+{"claim": "China NEV sales >24.0 M 2024 [id:261]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "perturb"}
+{"claim": "In non-energy context, Aging population >300M over 60 [id:418]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "14th FYP storage target >3.0 GW [id:202]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "rebut", "source": "perturb"}
+{"claim": "Research: TOPCon mass production efficiency >25% [id:129]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "US IRA $3690.0 B energy climate investment [id:217]", "evidence": "US Congress 2022: IRA $369B", "label": "rebut", "source": "perturb"}
+{"claim": "Storage system efficiency 85-95% [id:312]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "rebut", "source": "cross"}
+{"claim": "Research: EU carbon price 60-80 EUR/ton 2024 [id:153]", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "support", "source": "para"}
+{"claim": "Per data, China is largest PV manufacturer >80% global capacity [id:63]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "support", "source": "para"}
+{"claim": "CATL #1 battery maker 37% global share [id:320]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "cross"}
+{"claim": "General knowledge: Grain output stable >650Mt 8 years [id:403]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Storage system efficiency 85-95.0 GW [id:263]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "perturb"}
+{"claim": "Offshore wind turbine 16-20MW [id:307]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "cross"}
+{"claim": "General knowledge: Data center electricity 1000TWh 2026 [id:485]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Per data, Storage system efficiency 85-95% [id:70]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "support", "source": "para"}
+{"claim": "RE with storage mandate 10-20%", "evidence": "NEA 2023: RE projects storage 10-20%", "label": "support", "source": "known"}
+{"claim": "Report shows CAES suitable for >100MW/>4h LDES [id:164]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "para"}
+{"claim": "Data: 14th FYP storage target >30GW [id:48]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "support", "source": "para"}
+{"claim": "Reportedly, Global semiconductor market $600B growth 15% [id:430]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China wind cumulative 520GW by 2024 [id:286]", "evidence": "GB/T 36276: storage Li-ion cycle >=6000", "label": "rebut", "source": "cross"}
+{"claim": "China is largest PV manufacturer >800.0 % global capacity [id:221]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "rebut", "source": "perturb"}
+{"claim": "RE with storage mandate 10-20% [id:335]", "evidence": "NEA 2024: distributed PV ~42%", "label": "rebut", "source": "cross"}
+{"claim": "Offshore wind turbine 16-60.0 MW [id:220]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "rebut", "source": "perturb"}
+{"claim": "Onshore wind turbine 2-10MW typical [id:336]", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "rebut", "source": "cross"}
+{"claim": "Lithium battery >95.0 GW of new energy storage [id:173]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "rebut", "source": "perturb"}
+{"claim": "Storage system efficiency 85-95%", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "support", "source": "known"}
+{"claim": "Data: TOPCon mass production efficiency >25% [id:40]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "In non-energy context, 5G base stations >4M [id:408]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China NEV sales >12.0 GW 2024 [id:227]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "perturb"}
+{"claim": "Authority: Solar LCOE range 0.15-0.40 CNY/kWh [id:142]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "support", "source": "para"}
+{"claim": "Perovskite tandem cell lab efficiency 165.0 % [id:194]", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "rebut", "source": "perturb"}
+{"claim": "Official: Storage system efficiency 85-95% [id:85]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "support", "source": "para"}
+{"claim": "General knowledge: Data center electricity 1000TWh 2026 [id:380]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "2025 stats: China carbon price ~80 CNY/ton 2024 avg [id:74]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "support", "source": "para"}
+{"claim": "Lithium battery >190.0 % of new energy storage [id:206]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "rebut", "source": "perturb"}
+{"claim": "Data: Onshore wind turbine 2-10MW typical [id:103]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "support", "source": "para"}
+{"claim": "Latest news: AI market $1.5T by 2030 [id:425]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: Smartphone shipments 1.5B 2025 [id:381]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, 5G base stations >4M [id:414]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: AI market $1.5T by 2030 [id:480]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "2025 stats: Offshore wind turbine 16-20MW [id:62]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "support", "source": "para"}
+{"claim": "Authority: China PV cumulative installed 890GW by 2024 [id:170]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "support", "source": "para"}
+{"claim": "Vanadium flow battery cost 2-0.6 CNY/Wh [id:233]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "rebut", "source": "perturb"}
+{"claim": "Storage lithium battery cycle life 6000-8000 [id:272]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "cross"}
+{"claim": "China is largest PV manufacturer >20.0 % global capacity [id:267]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "rebut", "source": "perturb"}
+{"claim": "China carbon price ~40.0 CNY/ton 2024 avg [id:260]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "rebut", "source": "perturb"}
+{"claim": "China pledges 2030 carbon peak, 2060 carbon neutral [id:271]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "cross"}
+{"claim": "Report shows 14th FYP storage target >30GW [id:111]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "support", "source": "para"}
+{"claim": "EU CBAM effective 2026", "evidence": "EU Commission 2023: CBAM Jan 1 2026", "label": "support", "source": "known"}
+{"claim": "US IRA $369B energy climate investment [id:287]", "evidence": "EU Commission 2023: CBAM Jan 1 2026", "label": "rebut", "source": "cross"}
+{"claim": "Wind LCOE 0.15-0.7 CNY/kWh [id:237]", "evidence": "IRENA 2025: China wind LCOE 0.15-0.30 CNY/kWh", "label": "rebut", "source": "perturb"}
+{"claim": "2025 stats: Storage system efficiency 85-95% [id:158]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "support", "source": "para"}
+{"claim": "In non-energy context, Aging population >300M over 60 [id:439]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Research: CAES suitable for >100MW/>4h LDES [id:71]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "para"}
+{"claim": "General knowledge: Railway mileage >160k km [id:465]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Statistics: China new energy storage cumulative 60GW by 2024 [id:152]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "support", "source": "para"}
+{"claim": "China wind cumulative 260.0 GW by 2024 [id:235]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "rebut", "source": "perturb"}
+{"claim": "Official: EU CBAM effective 2026 [id:151]", "evidence": "EU Commission 2023: CBAM Jan 1 2026", "label": "support", "source": "para"}
+{"claim": "China new energy storage cumulative 60GW by 2024", "evidence": "CNESA 2025: China storage 60.2GW", "label": "support", "source": "known"}
+{"claim": "Statistics: China NEV sales >12M 2024 [id:60]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "para"}
+{"claim": "In non-energy context, AI market $1.5T by 2030 [id:357]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Report shows China PV cumulative installed 890GW by 2024 [id:126]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "support", "source": "para"}
+{"claim": "CATL #1 battery maker 74.0 % global share [id:197]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "perturb"}
+{"claim": "2025 stats: Distributed PV ~40% of China total PV [id:147]", "evidence": "NEA 2024: distributed PV ~42%", "label": "support", "source": "para"}
+{"claim": "Storage system efficiency 85-95% [id:332]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "rebut", "source": "cross"}
+{"claim": "EU carbon price 60-400.0 EUR/ton 2024 [id:212]", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "rebut", "source": "perturb"}
+{"claim": "China wind cumulative 520GW by 2024 [id:303]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "cross"}
+{"claim": "China NEV sales >12M 2024 [id:329]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "rebut", "source": "cross"}
+{"claim": "BYD 2024 NEV sales >2.0 M [id:196]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "perturb"}
+{"claim": "Official: Storage system efficiency 85-95% [id:37]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "support", "source": "para"}
+{"claim": "Report shows V2G enables bidirectional EV-grid charging [id:144]", "evidence": "SGCC 2025 V2G pilot: bidir efficiency >90%", "label": "support", "source": "para"}
+{"claim": "Offshore wind turbine 16-2.0 MW [id:171]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "rebut", "source": "perturb"}
+{"claim": "Research: Solar LCOE range 0.15-0.40 CNY/kWh [id:90]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "support", "source": "para"}
+{"claim": "In non-energy context, Global semiconductor market $600B growth 15% [id:451]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Lithium battery >9.5 % of new energy storage [id:222]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "rebut", "source": "perturb"}
+{"claim": "Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:291]", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "rebut", "source": "cross"}
+{"claim": "Per data, TOPCon mass production efficiency >25% [id:89]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "RE with storage mandate 10-100.0 % [id:180]", "evidence": "NEA 2023: RE projects storage 10-20%", "label": "rebut", "source": "perturb"}
+{"claim": "Per data, Vanadium flow battery cost 2-3 CNY/Wh [id:67]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "Authority: Onshore wind turbine 2-10MW typical [id:66]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "support", "source": "para"}
+{"claim": "Reportedly, Global semiconductor market $600B growth 15% [id:500]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, Aging population >300M over 60 [id:407]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: NEV penetration >50% mainstream [id:477]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: Steel output hits 2Bt record 2025 [id:361]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: 5G base stations >4M [id:467]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "2025 stats: Offshore wind turbine 16-20MW [id:68]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "support", "source": "para"}
+{"claim": "Latest news: Smartphone shipments 1.5B 2025 [id:446]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "CATL #1 battery maker 37% global share [id:310]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "rebut", "source": "cross"}
+{"claim": "Reportedly, Global semiconductor market $600B growth 15% [id:362]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Perovskite tandem cell lab efficiency 33%", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "support", "source": "known"}
+{"claim": "Storage system efficiency 85-950.0 % [id:200]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "perturb"}
+{"claim": "TOPCon mass production efficiency >75.0 % [id:257]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "rebut", "source": "perturb"}
+{"claim": "Report shows EU CBAM effective 2026 [id:39]", "evidence": "EU Commission 2023: CBAM Jan 1 2026", "label": "support", "source": "para"}
+{"claim": "Per data, Distributed PV ~40% of China total PV [id:51]", "evidence": "NEA 2024: distributed PV ~42%", "label": "support", "source": "para"}
+{"claim": "Statistics: Solar LCOE range 0.15-0.40 CNY/kWh [id:57]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "support", "source": "para"}
+{"claim": "China is largest PV manufacturer >160.0 % global capacity [id:231]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "rebut", "source": "perturb"}
+{"claim": "Reportedly, AI market $1.5T by 2030 [id:393]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China wind cumulative 520GW by 2024", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "support", "source": "known"}
+{"claim": "14th FYP storage target >30GW [id:280]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "cross"}
+{"claim": "Reportedly, Grain output stable >650Mt 8 years [id:440]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Authority: China carbon market covers ~5Bt CO2 [id:87]", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "support", "source": "para"}
+{"claim": "RE with storage mandate 10-4.0 % [id:175]", "evidence": "NEA 2023: RE projects storage 10-20%", "label": "rebut", "source": "perturb"}
+{"claim": "2025 stats: CAES suitable for >100MW/>4h LDES [id:55]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "para"}
+{"claim": "2025 stats: Onshore wind turbine 2-10MW typical [id:33]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "support", "source": "para"}
+{"claim": "In non-energy context, Grain output stable >650Mt 8 years [id:494]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Report shows China carbon price ~80 CNY/ton 2024 avg [id:117]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "support", "source": "para"}
+{"claim": "2025 stats: China new energy storage cumulative 60GW by 2024 [id:145]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "support", "source": "para"}
+{"claim": "EU carbon price 60-80 EUR/ton 2024", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "support", "source": "known"}
+{"claim": "Wind LCOE 0.15-3.5 CNY/kWh [id:187]", "evidence": "IRENA 2025: China wind LCOE 0.15-0.30 CNY/kWh", "label": "rebut", "source": "perturb"}
+{"claim": "China PV cumulative installed 890GW by 2024 [id:288]", "evidence": "GB/T 36276: storage Li-ion cycle >=6000", "label": "rebut", "source": "cross"}
+{"claim": "Lithium battery >95% of new energy storage", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "support", "source": "known"}
+{"claim": "Mono-Si module efficiency 22-26% [id:331]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "cross"}
+{"claim": "General knowledge: Aging population >300M over 60 [id:356]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, 5G base stations >4M [id:385]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Per data, China PV cumulative installed 890GW by 2024 [id:102]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "support", "source": "para"}
+{"claim": "Distributed PV ~40% of China total PV", "evidence": "NEA 2024: distributed PV ~42%", "label": "support", "source": "known"}
+{"claim": "2025 stats: China carbon market covers ~5Bt CO2 [id:38]", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "support", "source": "para"}
+{"claim": "Latest news: Aging population >300M over 60 [id:369]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China wind cumulative 260.0 GW by 2024 [id:266]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: Data center electricity 1000TWh 2026 [id:474]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China carbon price ~80 CNY/ton 2024 avg [id:330]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "rebut", "source": "cross"}
+{"claim": "Latest news: Railway mileage >160k km [id:373]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, AI market $1.5T by 2030 [id:443]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China carbon market covers ~5Bt CO2 [id:317]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "rebut", "source": "cross"}
+{"claim": "BYD 2024 NEV sales >4M", "evidence": "BYD 2024 annual: 4.27M sold", "label": "support", "source": "known"}
+{"claim": "In non-energy context, Global semiconductor market $600B growth 15% [id:428]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China is largest PV manufacturer >80% global capacity [id:334]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "cross"}
+{"claim": "Per data, Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:108]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "Reportedly, Global semiconductor market $600B growth 15% [id:411]", "evidence": "SIA report: 2024 global semi $574B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: AI market $1.5T by 2030 [id:441]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Per data, China NEV sales >12M 2024 [id:148]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "support", "source": "para"}
+{"claim": "Solar LCOE range 0.15-0.04000000000000001 CNY/kWh [id:258]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "rebut", "source": "perturb"}
+{"claim": "In non-energy context, Aging population >300M over 60 [id:379]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China new energy storage cumulative 50.0 GW by 2024 [id:226]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "rebut", "source": "perturb"}
+{"claim": "BYD 2024 NEV sales >40.0 M [id:184]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "perturb"}
+{"claim": "China carbon price ~40.0 CNY/ton 2024 avg [id:234]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "rebut", "source": "perturb"}
+{"claim": "Data: Perovskite tandem cell lab efficiency 33% [id:161]", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "support", "source": "para"}
+{"claim": "China PV cumulative installed 880.0 GW by 2024 [id:223]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: NEV penetration >50% mainstream [id:495]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "V2G enables bidirectional EV-grid charging", "evidence": "SGCC 2025 V2G pilot: bidir efficiency >90%", "label": "support", "source": "known"}
+{"claim": "China NEV sales >2.4 M 2024 [id:239]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "perturb"}
+{"claim": "BYD 2024 NEV sales >8.0 M [id:246]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "perturb"}
+{"claim": "Sodium-ion battery cost 0.5-1.6 CNY/Wh [id:248]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "rebut", "source": "perturb"}
+{"claim": "Report shows China wind cumulative 520GW by 2024 [id:133]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "support", "source": "para"}
+{"claim": "Latest news: Steel output hits 2Bt record 2025 [id:402]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China is largest PV manufacturer >80% global capacity [id:306]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "cross"}
+{"claim": "Storage system efficiency 85-950.0 % [id:247]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "perturb"}
+{"claim": "Perovskite tandem cell lab efficiency 33% [id:305]", "evidence": "NEA 2024: distributed PV ~42%", "label": "rebut", "source": "cross"}
+{"claim": "Statistics: China carbon market covers ~5Bt CO2 [id:79]", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "support", "source": "para"}
+{"claim": "Storage system efficiency 85-5.0 % [id:255]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "perturb"}
+{"claim": "2025 stats: China pledges 2030 carbon peak, 2060 carbon neutral [id:105]", "evidence": "President Xi UN 2020 dual carbon goals", "label": "support", "source": "para"}
+{"claim": "Onshore wind turbine 2-5.0 MW typical [id:211]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "perturb"}
+{"claim": "Data: EU CBAM effective 2026 [id:92]", "evidence": "EU Commission 2023: CBAM Jan 1 2026", "label": "support", "source": "para"}
+{"claim": "BYD 2024 NEV sales >0.8 M [id:232]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "perturb"}
+{"claim": "China wind cumulative 520GW by 2024 [id:311]", "evidence": "SGCC 2025 V2G pilot: bidir efficiency >90%", "label": "rebut", "source": "cross"}
+{"claim": "Statistics: BYD 2024 NEV sales >4M [id:119]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "support", "source": "para"}
+{"claim": "Mono-Si module efficiency 22-26%", "evidence": "CPIA 2025: mainstream mono-Si modules 22-26%", "label": "support", "source": "known"}
+{"claim": "China NEV sales >120.0 M 2024 [id:218]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "perturb"}
+{"claim": "In non-energy context, Aging population >300M over 60 [id:497]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "14th FYP storage target >30GW", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "support", "source": "known"}
+{"claim": "Perovskite tandem cell lab efficiency 33% [id:294]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "rebut", "source": "cross"}
+{"claim": "Data: China pledges 2030 carbon peak, 2060 carbon neutral [id:64]", "evidence": "President Xi UN 2020 dual carbon goals", "label": "support", "source": "para"}
+{"claim": "Statistics: EU carbon price 60-80 EUR/ton 2024 [id:36]", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "support", "source": "para"}
+{"claim": "Report shows China PV cumulative installed 890GW by 2024 [id:157]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "support", "source": "para"}
+{"claim": "Mono-Si module efficiency 22-130.0 % [id:199]", "evidence": "CPIA 2025: mainstream mono-Si modules 22-26%", "label": "rebut", "source": "perturb"}
+{"claim": "Official: China pledges 2030 carbon peak, 2060 carbon neutral [id:132]", "evidence": "President Xi UN 2020 dual carbon goals", "label": "support", "source": "para"}
+{"claim": "Reportedly, AI market $1.5T by 2030 [id:489]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: AI market $1.5T by 2030 [id:463]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Official: CAES suitable for >100MW/>4h LDES [id:106]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "para"}
+{"claim": "TOPCon mass production efficiency >25% [id:292]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "rebut", "source": "cross"}
+{"claim": "Report shows Storage lithium battery cycle life 6000-8000 [id:99]", "evidence": "GB/T 36276: storage Li-ion cycle >=6000", "label": "support", "source": "para"}
+{"claim": "Reportedly, AI market $1.5T by 2030 [id:461]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "2025 stats: China is largest PV manufacturer >80% global capacity [id:53]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "support", "source": "para"}
+{"claim": "Statistics: Storage system efficiency 85-95% [id:149]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "support", "source": "para"}
+{"claim": "In non-energy context, 5G base stations >4M [id:466]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, NEV penetration >50% mainstream [id:359]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Perovskite tandem cell lab efficiency 330.0 % [id:179]", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "rebut", "source": "perturb"}
+{"claim": "Authority: TOPCon mass production efficiency >25% [id:75]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "Latest news: Aging population >300M over 60 [id:400]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Data center electricity 1000TWh 2026 [id:382]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Vanadium flow battery cost 2-3 CNY/Wh", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "support", "source": "known"}
+{"claim": "2025 stats: Onshore wind turbine 2-10MW typical [id:86]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "support", "source": "para"}
+{"claim": "Statistics: Mono-Si module efficiency 22-26% [id:159]", "evidence": "CPIA 2025: mainstream mono-Si modules 22-26%", "label": "support", "source": "para"}
+{"claim": "Per data, US IRA $369B energy climate investment [id:58]", "evidence": "US Congress 2022: IRA $369B", "label": "support", "source": "para"}
+{"claim": "Official: US IRA $369B energy climate investment [id:81]", "evidence": "US Congress 2022: IRA $369B", "label": "support", "source": "para"}
+{"claim": "Vanadium flow battery cost 2-30.0 CNY/Wh [id:185]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "rebut", "source": "perturb"}
+{"claim": "Solar LCOE range 0.15-0.40 CNY/kWh [id:333]", "evidence": "GB/T 36276: storage Li-ion cycle >=6000", "label": "rebut", "source": "cross"}
+{"claim": "In non-energy context, Data center electricity 1000TWh 2026 [id:457]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Railway mileage >160k km [id:450]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, NEV penetration >50% mainstream [id:386]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China PV cumulative installed 890GW by 2024", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "support", "source": "known"}
+{"claim": "Official: BYD 2024 NEV sales >4M [id:141]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "support", "source": "para"}
+{"claim": "Report shows CAES suitable for >100MW/>4h LDES [id:101]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "para"}
+{"claim": "Latest news: Grain output stable >650Mt 8 years [id:397]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "2025 stats: CATL #1 battery maker 37% global share [id:77]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "support", "source": "para"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:421]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Steel output hits 2Bt record 2025 [id:342]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "extra"}
+{"claim": "Reportedly, 5G base stations >4M [id:388]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Mono-Si module efficiency 22-5.2 % [id:201]", "evidence": "CPIA 2025: mainstream mono-Si modules 22-26%", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: Railway mileage >160k km [id:473]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "General knowledge: Data center electricity 1000TWh 2026 [id:401]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, Aging population >300M over 60 [id:417]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "US IRA $369B energy climate investment [id:326]", "evidence": "IRENA 2025: China wind LCOE 0.15-0.30 CNY/kWh", "label": "rebut", "source": "cross"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:364]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Onshore wind turbine 2-1.0 MW typical [id:259]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "perturb"}
+{"claim": "AI market $1.5T by 2030 [id:345]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "extra"}
+{"claim": "2025 stats: BYD 2024 NEV sales >4M [id:130]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "support", "source": "para"}
+{"claim": "General knowledge: Steel output hits 2Bt record 2025 [id:499]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: NEV penetration >50% mainstream [id:355]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: NEV penetration >50% mainstream [id:405]", "evidence": "CPCA: 2024 NEV retail penetration 47.6%", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Onshore wind turbine 2-10.0 GW typical [id:188]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "perturb"}
+{"claim": "V2G enables bidirectional EV-grid charging [id:293]", "evidence": "IEA 2025: China PV capacity 80-85% global", "label": "rebut", "source": "cross"}
+{"claim": "TOPCon mass production efficiency >25% [id:296]", "evidence": "SGCC 2025 V2G pilot: bidir efficiency >90%", "label": "rebut", "source": "cross"}
+{"claim": "General knowledge: 5G base stations >4M [id:389]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, Steel output hits 2Bt record 2025 [id:436]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Onshore wind turbine 2-20.0 MW typical [id:207]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "perturb"}
+{"claim": "Perovskite tandem cell lab efficiency 165.0 % [id:186]", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "rebut", "source": "perturb"}
+{"claim": "CAES suitable for >100MW/>4h LDES [id:322]", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "rebut", "source": "cross"}
+{"claim": "Latest news: 5G base stations >4M [id:372]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Research: China carbon price ~80 CNY/ton 2024 avg [id:72]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "support", "source": "para"}
+{"claim": "China carbon price ~80 CNY/ton 2024 avg", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "support", "source": "known"}
+{"claim": "Onshore wind turbine 2-20.0 MW typical [id:195]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "perturb"}
+{"claim": "China NEV sales >12M 2024 [id:300]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "rebut", "source": "cross"}
+{"claim": "Report shows EU CBAM effective 2026 [id:65]", "evidence": "EU Commission 2023: CBAM Jan 1 2026", "label": "support", "source": "para"}
+{"claim": "General knowledge: Grain output stable >650Mt 8 years [id:434]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Per data, TOPCon mass production efficiency >25% [id:98]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "support", "source": "para"}
+{"claim": "Onshore wind turbine 2-10MW typical [id:321]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "cross"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:476]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Report shows V2G enables bidirectional EV-grid charging [id:54]", "evidence": "SGCC 2025 V2G pilot: bidir efficiency >90%", "label": "support", "source": "para"}
+{"claim": "Reportedly, Smartphone shipments 1.5B 2025 [id:470]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, AI market $1.5T by 2030 [id:482]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Authority: Mono-Si module efficiency 22-26% [id:143]", "evidence": "CPIA 2025: mainstream mono-Si modules 22-26%", "label": "support", "source": "para"}
+{"claim": "Data: CATL #1 battery maker 37% global share [id:150]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "support", "source": "para"}
+{"claim": "Vanadium flow battery cost 2-3 CNY/Wh [id:339]", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "rebut", "source": "cross"}
+{"claim": "Reportedly, Smartphone shipments 1.5B 2025 [id:376]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Mono-Si module efficiency 22-26% [id:281]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "rebut", "source": "cross"}
+{"claim": "TOPCon mass production efficiency >250.0 % [id:264]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "rebut", "source": "perturb"}
+{"claim": "Vanadium flow battery cost 2-1.5 CNY/Wh [id:208]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "rebut", "source": "perturb"}
+{"claim": "Report shows China wind cumulative 520GW by 2024 [id:47]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "support", "source": "para"}
+{"claim": "In non-energy context, 5G base stations >4M [id:471]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China NEV sales >12M 2024 [id:289]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "rebut", "source": "cross"}
+{"claim": "CAES suitable for >100MW/>4h LDES", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "known"}
+{"claim": "General knowledge: Steel output hits 2Bt record 2025 [id:498]", "evidence": "Worldsteel: 2025 crude steel 1.98Bt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "14th FYP storage target >3.0 GW [id:204]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "rebut", "source": "perturb"}
+{"claim": "Data: Perovskite tandem cell lab efficiency 33% [id:113]", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "support", "source": "para"}
+{"claim": "General knowledge: Data center electricity 1000TWh 2026 [id:378]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "In non-energy context, Grain output stable >650Mt 8 years [id:426]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Latest news: Data center electricity 1000TWh 2026 [id:493]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China carbon price ~8.0 CNY/ton 2024 avg [id:241]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "rebut", "source": "perturb"}
+{"claim": "Data: Sodium-ion battery cost 0.5-0.8 CNY/Wh [id:118]", "evidence": "CATL 2025: sodium-ion storage system 0.5 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "Offshore wind turbine 16-4.0 MW [id:203]", "evidence": "Mingyang 2025: 20MW offshore turbine launched", "label": "rebut", "source": "perturb"}
+{"claim": "Reportedly, Aging population >300M over 60 [id:377]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Solar LCOE range 0.15-4.0 CNY/kWh [id:238]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "rebut", "source": "perturb"}
+{"claim": "US IRA $359.0 B energy climate investment [id:242]", "evidence": "US Congress 2022: IRA $369B", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: Data center electricity 1000TWh 2026 [id:437]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Lithium battery >95% of new energy storage [id:323]", "evidence": "NEA 2024: distributed PV ~42%", "label": "rebut", "source": "cross"}
+{"claim": "RE with storage mandate 10-20% [id:313]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "cross"}
+{"claim": "BYD 2024 NEV sales >0.4 M [id:213]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "perturb"}
+{"claim": "Authority: 14th FYP storage target >30GW [id:45]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "support", "source": "para"}
+{"claim": "RE with storage mandate 10-20% [id:319]", "evidence": "BYD 2024 annual: 4.27M sold", "label": "rebut", "source": "cross"}
+{"claim": "Report shows China PV cumulative installed 890GW by 2024 [id:61]", "evidence": "NEA 2024 stats: China PV cumulative 890GW", "label": "support", "source": "para"}
+{"claim": "Statistics: EU carbon price 60-80 EUR/ton 2024 [id:93]", "evidence": "EEX 2024: EUA avg ~68 EUR/ton", "label": "support", "source": "para"}
+{"claim": "Research: 14th FYP storage target >30GW [id:134]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "support", "source": "para"}
+{"claim": "China NEV sales >120.0 M 2024 [id:256]", "evidence": "CAAM 2024: NEV sales 12.86M", "label": "rebut", "source": "perturb"}
+{"claim": "Railway mileage >160k km [id:348]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "extra"}
+{"claim": "In non-energy context, 5G base stations >4M [id:447]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:455]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Aging population >300M over 60 [id:347]", "evidence": "NBS 2024: 60+ population 310M (22%)", "label": "irrelevant", "source": "extra"}
+{"claim": "Per data, China wind cumulative 520GW by 2024 [id:42]", "evidence": "NEA 2024: China wind cumulative 520GW", "label": "support", "source": "para"}
+{"claim": "Reportedly, 5G base stations >4M [id:390]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Vanadium flow battery cost 2-15.0 CNY/Wh [id:270]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "rebut", "source": "perturb"}
+{"claim": "General knowledge: Railway mileage >160k km [id:409]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Distributed PV ~60.0 % of China total PV [id:215]", "evidence": "NEA 2024: distributed PV ~42%", "label": "rebut", "source": "perturb"}
+{"claim": "Reportedly, Grain output stable >650Mt 8 years [id:460]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "China new energy storage cumulative 50.0 GW by 2024 [id:192]", "evidence": "CNESA 2025: China storage 60.2GW", "label": "rebut", "source": "perturb"}
+{"claim": "Statistics: CATL #1 battery maker 37% global share [id:168]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "support", "source": "para"}
+{"claim": "Report shows Mono-Si module efficiency 22-26% [id:50]", "evidence": "CPIA 2025: mainstream mono-Si modules 22-26%", "label": "support", "source": "para"}
+{"claim": "Grain output stable >650Mt 8 years [id:343]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "extra"}
+{"claim": "14th FYP storage target >30GW [id:308]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "cross"}
+{"claim": "CATL #1 battery maker 63.0 % global share [id:182]", "evidence": "SNE Research 2024: CATL 37.1%", "label": "rebut", "source": "perturb"}
+{"claim": "China carbon price ~400.0 CNY/ton 2024 avg [id:210]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "rebut", "source": "perturb"}
+{"claim": "Data: US IRA $369B energy climate investment [id:131]", "evidence": "US Congress 2022: IRA $369B", "label": "support", "source": "para"}
+{"claim": "General knowledge: Data center electricity 1000TWh 2026 [id:424]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Data: CAES suitable for >100MW/>4h LDES [id:95]", "evidence": "CAS: advanced CAES efficiency up to 70%", "label": "support", "source": "para"}
+{"claim": "Storage system efficiency 85-190.0 % [id:183]", "evidence": "Industry standard: electrochemical storage 85-95%", "label": "rebut", "source": "perturb"}
+{"claim": "China carbon price ~40.0 CNY/ton 2024 avg [id:228]", "evidence": "SEEE 2024: carbon avg 78.5 CNY/ton", "label": "rebut", "source": "perturb"}
+{"claim": "CATL #1 battery maker 37% global share [id:309]", "evidence": "IRENA 2025: China solar LCOE 0.15-0.35 CNY/kWh", "label": "rebut", "source": "cross"}
+{"claim": "Latest news: Smartphone shipments 1.5B 2025 [id:432]", "evidence": "IDC: 2025 smartphone 1.48B", "label": "irrelevant", "source": "tmpl"}
+{"claim": "TOPCon mass production efficiency >250.0 % [id:181]", "evidence": "JinkoSolar 2024 annual report: TOPCon 25.4%", "label": "rebut", "source": "perturb"}
+{"claim": "Authority: Perovskite tandem cell lab efficiency 33% [id:91]", "evidence": "Nature 2025: perovskite/silicon tandem 33.9%", "label": "support", "source": "para"}
+{"claim": "Onshore wind turbine 2-10MW typical", "evidence": "CWEA: onshore wind mainstream 4-8MW", "label": "support", "source": "known"}
+{"claim": "Latest news: Grain output stable >650Mt 8 years [id:422]", "evidence": "NBS: 2024 grain output 686Mt", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, Data center electricity 1000TWh 2026 [id:370]", "evidence": "IEA 2026: data centers 980-1050TWh", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Reportedly, AI market $1.5T by 2030 [id:415]", "evidence": "Gartner: 2030 AI market $1.2-1.8T", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Official: Distributed PV ~40% of China total PV [id:44]", "evidence": "NEA 2024: distributed PV ~42%", "label": "support", "source": "para"}
+{"claim": "China carbon market covers ~2.5 Bt CO2 [id:268]", "evidence": "MEE 2024: national carbon market ~5Bt", "label": "rebut", "source": "perturb"}
+{"claim": "5G base stations >4M [id:346]", "evidence": "MIIT: May 2025 5G base stations 4.25M", "label": "irrelevant", "source": "extra"}
+{"claim": "Reportedly, Railway mileage >160k km [id:487]", "evidence": "CR: 2025 railway 162k km", "label": "irrelevant", "source": "tmpl"}
+{"claim": "Per data, Vanadium flow battery cost 2-3 CNY/Wh [id:122]", "evidence": "Rongke 2025: VFB system cost 2.3 CNY/Wh", "label": "support", "source": "para"}
+{"claim": "US IRA $369B energy climate investment", "evidence": "US Congress 2022: IRA $369B", "label": "support", "source": "known"}
+{"claim": "2025 stats: Lithium battery >95% of new energy storage [id:156]", "evidence": "NEA 2024: lithium battery 96% of storage", "label": "support", "source": "para"}
+{"claim": "14th FYP storage target >60.0 GW [id:225]", "evidence": "Modern Energy System Plan: 2025 storage 30GW+", "label": "rebut", "source": "perturb"}

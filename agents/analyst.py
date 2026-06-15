@@ -15,7 +15,7 @@ ANALYST_SYSTEM_PROMPT = """你是 EnergyInsight 系统的分析智能体（Analy
 根据问题类型，选择合适的分析框架：
 
 ### 技术问题 → 技术经济性对比框架
-- 技术参数对比（表格形式）
+- 技术参数对比（使用 Markdown pipe 表格：`| 参数 | 数值 |`，禁止 HTML table）
 - 成本结构分析（CAPEX + OPEX）
 - 技术成熟度评估
 - 未来发展趋势判断
@@ -114,7 +114,8 @@ def analyze(
         token = chunk.content if hasattr(chunk, "content") else str(chunk)
         if token:
             full.append(token)
-            sys.stdout.write(token)
+            try: sys.stdout.write(token)
+            except UnicodeEncodeError: sys.stdout.write(token.encode('utf-8', errors='replace').decode('utf-8', errors='replace'))
             sys.stdout.flush()
     content = "".join(full).strip()
 
@@ -146,3 +147,54 @@ def analyze(
             pass
 
     return content
+
+
+def check_sufficiency(research_results: dict[str, str]) -> dict:
+    """
+    检查各子问题的信息充分性。
+
+    由 Researcher 执行完毕后调用，判断是否需要触发动态重规划。
+    基于启发式规则快速评估，不依赖 LLM 调用。
+
+    Args:
+        research_results: 子问题 ID → 研究结果文本的映射
+
+    Returns:
+        {
+            "overall_sufficient": bool,
+            "sufficiency": {id: "sufficient"|"insufficient"},
+            "insufficient_ids": [id, ...],
+        }
+    """
+    sufficiency = {}
+    insufficient_ids = []
+
+    for sq_id, answer in research_results.items():
+        if not answer or len(answer.strip()) < 50:
+            # 无结果或结果过短 → 信息不足
+            sufficiency[sq_id] = "insufficient"
+            insufficient_ids.append(sq_id)
+            continue
+
+        # 检查常见的信息不足标记
+        low_info_markers = [
+            "未找到相关信息", "无法获取数据", "搜索失败", "无结果",
+            "no results found", "no data available", "information not found",
+            "未获取到结果", "研究失败",
+        ]
+        is_insufficient = any(m in answer.lower() for m in low_info_markers)
+
+        if is_insufficient:
+            sufficiency[sq_id] = "insufficient"
+            insufficient_ids.append(sq_id)
+        else:
+            sufficiency[sq_id] = "sufficient"
+
+    overall = len(insufficient_ids) == 0
+
+    return {
+        "overall_sufficient": overall,
+        "sufficiency": sufficiency,
+        "insufficient_ids": insufficient_ids,
+    }
+

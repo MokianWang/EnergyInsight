@@ -1,19 +1,21 @@
 """
 EnergyInsight LangGraph 工作流
 构建 StateGraph，编排 5 个 Agent 的执行顺序
-支持：Planner → Researcher → Analyst → Writer ↔ Reviewer（条件回环）
+支持：
+  - Planner → Researcher(并行DAG) → Analyst → Writer ↔ Reviewer（审查回环）
+  - Analyst → 信息不足 → Planner(replan) → Researcher（动态重规划）
 使用流式输出，实时展示每一步的迭代过程
 """
 
 import sys
 from langgraph.graph import StateGraph, END
 from agents.state import ResearchState
-from agents.planner import plan
+from agents.planner import plan, replan
 from agents.researcher import research_all
-from agents.analyst import analyze
+from agents.analyst import analyze, check_sufficiency
 from agents.writer import write_report
 from agents.reviewer import review_report, build_review_feedback
-from config.settings import MAX_REVIEW_ROUNDS
+from config.settings import get_max_review_rounds, get_max_replan_rounds
 
 
 # ========== 节点函数 ==========
@@ -53,7 +55,7 @@ def researcher_node(state: ResearchState) -> dict:
     sub_questions = state["sub_questions"]
     question_type = state["question_type"]
 
-    result = research_all(sub_questions, question_type)
+    result = research_all(sub_questions, question_type, progress_cb=None)
 
     research_results = result["research_results"]
     citations = result["citations"]
@@ -68,7 +70,7 @@ def researcher_node(state: ResearchState) -> dict:
 
 
 def analyst_node(state: ResearchState) -> dict:
-    """Analyst：深度分析"""
+    """Analyst：深度分析 + 信息充分性判断"""
     _print_header("[步骤 3/5] Analyst Agent - 深度分析")
     print("  ", end="", flush=True)
 
@@ -79,10 +81,55 @@ def analyst_node(state: ResearchState) -> dict:
 
     analysis = analyze(query, question_type, sub_questions, research_results)
 
-    print(f"\n  >>> 分析结论: {len(analysis)} 字")
+    # 检查信息充分性
+    sufficiency = check_sufficiency(research_results)
+    info_suff = sufficiency["sufficiency"]
+    overall_suff = sufficiency["overall_sufficient"]
+    insufficient_ids = sufficiency["insufficient_ids"]
+
+    if not overall_suff:
+        print(f"\n  >>> 信息不足: {len(insufficient_ids)} 个子问题需要补充研究")
+    else:
+        print(f"\n  >>> 信息充足, 进入撰写阶段")
+
+    print(f"  >>> 分析结论: {len(analysis)} 字")
     return {
         "analysis_conclusions": analysis,
+        "information_sufficiency": info_suff,
         "current_step": "analyst",
+    }
+
+
+def replanner_node(state: ResearchState) -> dict:
+    """动态重规划：信息不足时生成补充子问题"""
+    replan_count = state.get("replan_count", 0)
+    _print_header(f"[重规划] Planner Agent - 补充研究 (第 {replan_count + 1} 轮)")
+
+    query = state["query"]
+    sub_questions = state["sub_questions"]
+    research_results = state["research_results"]
+    info_sufficiency = state.get("information_sufficiency", {})
+
+    insufficient_ids = [
+        sid for sid, status in info_sufficiency.items()
+        if status == "insufficient"
+    ]
+
+    supplementary = replan(query, research_results, insufficient_ids, sub_questions)
+
+    if supplementary:
+        print(f"  补充 {len(supplementary)} 个子问题:")
+        for sq in supplementary:
+            print(f"    [{sq['id']}] {sq['question'][:60]}...")
+
+        all_sub_questions = list(sub_questions) + supplementary
+    else:
+        all_sub_questions = list(sub_questions)
+
+    return {
+        "sub_questions": all_sub_questions,
+        "replan_count": replan_count + 1,
+        "current_step": "replanner",
     }
 
 
@@ -150,6 +197,33 @@ def reviewer_node(state: ResearchState) -> dict:
 # ========== 条件路由 ==========
 
 
+def should_replan(state: ResearchState) -> str:
+    """分析完成后判断是否需要动态重规划"""
+    max_replan = get_max_replan_rounds()
+    if max_replan == 0:
+        return "writer"  # 开关关闭：直接跳过重规划
+
+    info_suff = state.get("information_sufficiency", {})
+    replan_count = state.get("replan_count", 0)
+    insufficient = [k for k, v in info_suff.items() if v == "insufficient"]
+
+    if insufficient and replan_count < max_replan:
+        print(f"\n  >>> 触发重规划 (第 {replan_count + 1}/{max_replan} 轮)")
+        return "replanner"
+
+    if insufficient:
+        print(f"\n  >>> 已达最大重规划轮次 ({max_replan}), 继续执行")
+    return "writer"
+
+
+def should_review(state: ResearchState) -> str:
+    """Writer 完成后判断是否需要质量审查"""
+    if get_max_review_rounds() == 0:
+        print(f"\n  >>> 质量审查已关闭, 跳过")
+        return "end"
+    return "reviewer"
+
+
 def should_continue_review(state: ResearchState) -> str:
     """审查结果决定下一步"""
     passed = state.get("review_passed", True)
@@ -159,8 +233,8 @@ def should_continue_review(state: ResearchState) -> str:
         print(f"\n  >>> 审查通过, 输出最终报告\n")
         return "end"
 
-    if round_num >= MAX_REVIEW_ROUNDS:
-        print(f"\n  >>> 已达最大审查轮次 ({MAX_REVIEW_ROUNDS}), 强制输出\n")
+    if round_num >= get_max_review_rounds():
+        print(f"\n  >>> 已达最大审查轮次 ({get_max_review_rounds()}), 强制输出\n")
         return "end"
 
     print(f"\n  >>> 审查未通过, 打回 Writer 重写 (第 {round_num + 1} 轮)\n")
@@ -171,20 +245,36 @@ def should_continue_review(state: ResearchState) -> str:
 
 
 def build_graph():
-    """构建 EnergyInsight 工作流图"""
+    """构建 EnergyInsight 工作流图（含动态重规划）"""
     graph = StateGraph(ResearchState)
 
     graph.add_node("planner", planner_node)
     graph.add_node("researcher", researcher_node)
     graph.add_node("analyst", analyst_node)
+    graph.add_node("replanner", replanner_node)
     graph.add_node("writer", writer_node)
     graph.add_node("reviewer", reviewer_node)
 
     graph.set_entry_point("planner")
     graph.add_edge("planner", "researcher")
     graph.add_edge("researcher", "analyst")
-    graph.add_edge("analyst", "writer")
-    graph.add_edge("writer", "reviewer")
+
+    # 分析后：信息充足→撰写, 信息不足→重规划
+    graph.add_conditional_edges(
+        "analyst",
+        should_replan,
+        {"writer": "writer", "replanner": "replanner"},
+    )
+
+    # 重规划后：回到 Researcher 执行补充研究
+    graph.add_edge("replanner", "researcher")
+
+    # Writer → 质量审查(可关闭) → 条件回环
+    graph.add_conditional_edges(
+        "writer",
+        should_review,
+        {"reviewer": "reviewer", "end": END},
+    )
     graph.add_conditional_edges(
         "reviewer",
         should_continue_review,
@@ -197,12 +287,13 @@ def build_graph():
 # ========== 流式运行入口 ==========
 
 
-def run(query: str) -> dict:
+def run(query: str, progress_callback=None) -> dict:
     """
     流式运行完整的 EnergyInsight 研究流程
 
-    使用 LangGraph stream() 在每个节点完成后立即输出状态变化，
-    配合各 Agent 内部的 LLM token 级流式输出，实现全链路可见。
+    Args:
+        query: 研究问题
+        progress_callback: 可选，每完成一个节点时调用 callback(node_name, state_update)
     """
     app = build_graph()
 
@@ -218,6 +309,8 @@ def run(query: str) -> dict:
         "review_passed": False,
         "review_round": 0,
         "hallucination_issues": [],
+        "replan_count": 0,
+        "information_sufficiency": {},
         "messages": [],
         "current_step": "init",
     }
@@ -227,15 +320,16 @@ def run(query: str) -> dict:
     print(f"{'#'*60}")
     print(f"\nResearch Question: {query}\n")
 
-    # 流式执行：每完成一个节点就输出该节点的状态更新
+    # 流式执行：用 values 模式获取全量累积状态（而非 updates 的增量）
     final_state = None
-    for event in app.stream(initial_state, stream_mode="updates"):
-        # event 格式: {node_name: state_update_dict}
-        for node_name, update in event.items():
-            final_state = update
+    for event in app.stream(initial_state, stream_mode="values"):
+        final_state = event
+        node_name = event.get("current_step", "")
+        if progress_callback and node_name:
+            progress_callback(node_name, event)
         sys.stdout.flush()
 
-    if final_state is None:
+    if final_state is None or not isinstance(final_state, dict):
         final_state = initial_state
 
     # 输出最终报告

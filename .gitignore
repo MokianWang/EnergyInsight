@@ -17,6 +17,22 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+.playwright-mcp/
 
 # Reports output
 reports/*.md
+
+# Data files (runtime artifacts)
+data/raw/
+data/milvus/
+data/onnx_models/
+data/carbon_price_cache.json
+
+# Virtual environments
+reranker_venv/
+venv312/
+venv/
+
+# Local models & caches
+models/
+*.joblib

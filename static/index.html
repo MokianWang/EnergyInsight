@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>EnergyInsight</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/contrib/auto-render.min.js"></script>
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--border:#334155;--text:#e2e8f0;--muted:#94a3b8;--accent:#38bdf8;--green:#4ade80;--red:#f87171}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.container{max-width:900px;margin:0 auto;padding:2rem 1rem}
+header{text-align:center;padding:3rem 0 2rem}
+header h1{font-size:2rem;font-weight:700;background:linear-gradient(135deg,#38bdf8,#818cf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+header p{color:var(--muted);margin-top:.5rem;font-size:.95rem}
+.search-box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:2rem;margin-bottom:2rem}
+.search-box textarea{width:100%;min-height:60px;padding:1rem;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:12px;font-size:1rem;resize:vertical;outline:none}
+.search-box textarea:focus{border-color:var(--accent)}
+.search-row{display:flex;gap:.6rem;margin-top:1rem;align-items:center;flex-wrap:wrap}
+.btn{padding:.55rem 1.2rem;border-radius:10px;font-size:.88rem;font-weight:600;cursor:pointer;border:none;transition:all .2s;display:inline-flex;align-items:center;gap:.35rem;white-space:nowrap}
+.btn-primary{background:var(--accent);color:#0f172a}.btn-primary:hover{background:#7dd3fc}.btn-primary:disabled{opacity:.5;cursor:not-allowed}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--text)}.btn-outline:hover{border-color:var(--accent)}
+.btn-icon{background:transparent;border:1px solid var(--border);color:var(--text);padding:.5rem .6rem;border-radius:10px;cursor:pointer;font-size:1.1rem}.btn-icon:hover{border-color:var(--accent)}
+.example-tags{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+.tag{padding:.3rem .8rem;border-radius:20px;font-size:.78rem;background:rgba(56,189,248,.1);color:var(--accent);cursor:pointer;border:1px solid rgba(56,189,248,.2)}.tag:hover{background:rgba(56,189,248,.2)}
+.toggle-label{display:flex;align-items:center;gap:.4rem;cursor:pointer;user-select:none;font-size:.82rem}.toggle-label input{display:none}
+.toggle-slider{width:40px;height:22px;background:var(--border);border-radius:11px;position:relative;transition:background .2s}
+.toggle-slider::after{content:'';position:absolute;top:2px;left:2px;width:18px;height:18px;background:white;border-radius:50%;transition:transform .2s}
+.toggle-label input:checked+.toggle-slider{background:var(--accent)}.toggle-label input:checked+.toggle-slider::after{transform:translateX(18px)}
+.toggle-text{font-size:.82rem;color:var(--muted)}
+.settings-panel{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:1rem;margin-top:.75rem;transition:all .3s;display:none}.settings-panel.open{display:block}
+.settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.result-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:2rem;margin-bottom:1.5rem;display:none}
+.result-card.loading{display:block}.result-card.done{display:block}.result-card.error{display:block;border-color:var(--red)}
+.status-bar{display:flex;align-items:center;gap:.75rem;margin-bottom:1rem;flex-wrap:wrap}
+.spinner{width:20px;height:20px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+.status-text{color:var(--muted);font-size:.9rem}.status-done{color:var(--green)}
+.report-body{line-height:1.8;font-size:.95rem;white-space:pre-wrap;max-height:70vh;overflow-y:auto;padding-right:1rem}
+.report-body h1,.report-body h2,.report-body h3{margin:1.2em 0 .5em;color:var(--accent)}
+.report-body table{width:100%;border-collapse:collapse;margin:1em 0;font-size:.88rem}
+.report-body td,.report-body th{border:1px solid var(--border);padding:.4rem .7rem;text-align:left;vertical-align:top}
+.report-body th{background:rgba(56,189,248,.1)}.report-body a{color:var(--accent)}
+.metrics{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:1rem}
+.metric{text-align:center;padding:.5rem 1rem;border-radius:8px;background:rgba(56,189,248,.05);border:1px solid var(--border)}.metric .value{font-size:1.3rem;font-weight:700;color:var(--accent)}.metric .label{font-size:.75rem;color:var(--muted);margin-top:.2rem}
+.error-msg{color:var(--red);padding:1rem;border-radius:8px;background:rgba(248,113,113,.1);border:1px solid rgba(248,113,113,.3)}
+footer{text-align:center;padding:3rem 0;color:var(--muted);font-size:.8rem}
+.katex{color:var(--text)}.katex-display>.katex>.katex-html>.tag{color:var(--muted)}
+</style></head>
+<body>
+<div class="container">
+<header><h1>EnergyInsight</h1><p>能源行业多智能体深度研究 — 输入问题，获取专业研报</p></header>
+<div class="search-box">
+  <textarea id="query" placeholder="输入你的能源研究问题...&#10;例如：钠离子电池在储能场景中的技术经济性分析"></textarea>
+  <div class="search-row">
+    <button class="btn btn-primary" id="btnSubmit" onclick="submitResearch()">开始研究</button>
+    <button class="btn btn-outline" id="btnStop" onclick="stopResearch()" style="display:none">中断</button>
+    <button class="btn btn-outline" onclick="clearAll()">清空</button>
+    <button class="btn btn-outline" onclick="formatCheck()">输出案例</button>
+    <label class="toggle-label"><input type="checkbox" id="webSearch" checked onchange="updateToggle()"><span class="toggle-slider"></span><span class="toggle-text" id="toggleText">联网搜索</span></label>
+    <span style="color:var(--muted);font-size:.72rem">关闭快速/开启完整</span>
+    <button class="btn-icon" onclick="toggleSettings()">&#9881;</button>
+  </div>
+  <div class="settings-panel" id="settingsPanel">
+    <div style="font-size:.82rem;color:var(--muted);margin-bottom:.6rem">高级设置</div>
+    <div class="settings-grid">
+      <label class="toggle-label"><input type="checkbox" id="sNER" checked><span class="toggle-slider"></span>NER术语识别</label>
+      <label class="toggle-label"><input type="checkbox" id="sQE" checked><span class="toggle-slider"></span>查询扩展</label>
+      <label class="toggle-label"><input type="checkbox" id="sBM25" checked><span class="toggle-slider"></span>BM25关键词</label>
+      <label class="toggle-label"><input type="checkbox" id="sRerank" checked><span class="toggle-slider"></span>Reranker重排序</label>
+      <label class="toggle-label"><input type="checkbox" id="sPyPSA" checked><span class="toggle-slider"></span>PyPSA计算</label>
+      <label class="toggle-label"><input type="checkbox" id="sReview" checked><span class="toggle-slider"></span>质量审查</label>
+      <label class="toggle-label"><input type="checkbox" id="sFastReview"><span class="toggle-slider"></span>快速审查(仅规则)</label>
+      <label class="toggle-label"><input type="checkbox" id="sLoRA"><span class="toggle-slider"></span>LoRA检测(GPU)</label>
+      <label class="toggle-label"><input type="checkbox" id="sReplan" checked><span class="toggle-slider"></span>动态重规划</label>
+    </div>
+  </div>
+  <div class="example-tags">
+    <span style="color:var(--muted);font-size:.78rem">试试：</span>
+    <span class="tag" onclick="setQuery('钠离子电池储能技术经济性分析')">钠离子电池储能</span>
+    <span class="tag" onclick="setQuery('光伏发电LCOE下降趋势2025')">光伏LCOE趋势</span>
+    <span class="tag" onclick="setQuery('青海100MW光伏配储能最优容量')">光储容量优化</span>
+    <span class="tag" onclick="setQuery('IEEE14节点系统在节点3接入20MW储能计算各节点边际电价')">现货仿真</span>
+    <span class="tag" onclick="setQuery('广东10MW40MWh储能峰谷套利收益分析')">储能套利</span>
+  </div>
+</div>
+<div class="result-card" id="resultCard">
+  <div class="status-bar">
+    <div class="spinner" id="spinner"></div>
+    <span class="status-text" id="statusText">准备就绪</span>
+    <span style="flex:1"></span>
+    <button class="btn btn-outline" id="btnDownload" style="display:none" onclick="downloadReport()">下载报告</button>
+  </div>
+  <div class="metrics" id="metrics"></div>
+  <div class="report-body" id="reportBody"></div>
+</div>
+<footer>EnergyInsight &copy; 2026 | Powered by Multi-Agent AI</footer>
+</div>
+<script src="/static/app.js"></script>
+</body></html>

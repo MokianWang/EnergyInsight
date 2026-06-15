@@ -14,24 +14,28 @@ PLANNER_SYSTEM_PROMPT = """你是 EnergyInsight 系统的规划智能体（Plann
 ## 问题分类规则
 
 首先判断问题类型（question_type）：
-- **技术**：涉及技术路线对比、技术参数、工艺原理（如：磷酸铁锂 vs 钠离子电池）
-- **政策**：涉及政策文件、法规影响、补贴变化（如：电力现货市场改革影响）
-- **市场**：涉及行业趋势、市场规模、商业模式（如：虚拟电厂发展前景）
+- **技术**：涉及技术路线对比、技术参数、工艺原理
+- **政策**：涉及政策文件、法规影响、补贴变化
+- **市场**：涉及行业趋势、市场规模、商业模式
 - **计算**：涉及电力系统定量计算（如：储能容量配置、最优潮流计算）
 
-一个问题可以同时涉及多个类型，以主要类型为准。
+## PyPSA 计算能力（重要！）
+
+系统已内置以下计算能力，**无需外部搜索即可直接调用**：
+- **容量优化**：直接输入光伏MW、风电MW、地点、储能成本 → 输出最优容量和LCOE
+- **储能套利**：直接输入储能容量、省份(广东/山东/甘肃/江苏) → 输出年化收益和回收期
+- **现货仿真**：内置 IEEE 14/30/118 和5节点标准测试网络，**无需搜索拓扑数据**
+
+对于计算类问题，**所有子问题都应使用 tool_type="pypsa"**，不要生成"search"类型的子问题去搜索拓扑参数或IEEE数据。PyPSA 工具内置了所有需要的网络模型。
 
 ## 子问题拆解规则
 
-1. 将原始问题拆解为 3-6 个子问题
-2. 每个子问题必须标注依赖关系（depends_on）：
-   - 如果子问题 B 需要子问题 A 的结果才能执行，则 B.depends_on = [A.id]
-   - 没有依赖的子问题可以并行执行
-3. 每个子问题必须标注工具类型（tool_type）：
-   - "search"：需要网络搜索（大多数情况）
-   - "rag"：需要从本地知识库检索（步骤2启用）
-   - "pypsa"：需要电力系统计算（步骤5启用）
-   - "api"：需要调用外部数据 API
+1. 将原始问题拆解为 2-4 个子问题（计算类问题 1-2 个即可）
+2. 每个子问题必须标注依赖关系和工具类型：
+   - "search"：需要网络搜索
+   - "rag"：需要从本地知识库检索
+   - "pypsa"：电力系统计算（**内置网络+求解器，无需搜索前置**）
+   - "api"：碳价/电价等数据查询
 
 ## 输出格式
 
@@ -119,3 +123,81 @@ def plan(query: str) -> dict:
         ]
 
     return result
+
+
+REPLAN_PROMPT = """你是 EnergyInsight 的规划智能体。前面研究中有部分子问题信息不足，需要补充搜索。
+
+## 原始问题
+{query}
+
+## 已有研究结果
+{existing_results}
+
+## 信息不足的子问题
+{insufficient_questions}
+
+## 要求
+生成 1-3 个补充子问题，弥补信息缺口。输出 JSON 格式：
+```json
+{{"supplementary_questions": [{{"id": 从{next_id}开始递增, "question": "...", "depends_on": [], "tool_type": "search"}}]}}
+```
+只输出 JSON，不要其他内容。"""
+
+
+def replan(query: str, existing_results: dict[str, str],
+           insufficient_ids: list[str], sub_questions: list[dict]) -> list[dict]:
+    """
+    动态重规划：信息不足时生成补充子问题。
+
+    Args:
+        query: 用户原始问题
+        existing_results: 已有的研究结果
+        insufficient_ids: 信息不足的子问题 ID 列表
+        sub_questions: 当前的子问题列表
+
+    Returns:
+        补充的子问题列表
+    """
+    llm = get_llm(temperature=0.2)
+
+    # 构建上下文
+    insufficient_info = []
+    for sq in sub_questions:
+        sid = str(sq["id"])
+        if sid in insufficient_ids:
+            insufficient_info.append(
+                f"- [{sid}] {sq['question']}: {existing_results.get(sid, '无结果')[:200]}"
+            )
+
+    results_summary = "\n".join(
+        f"- [{k}] {v[:150]}" for k, v in list(existing_results.items())[:5]
+    )
+
+    next_id = max([sq.get("id", 0) for sq in sub_questions], default=0) + 1
+
+    prompt = REPLAN_PROMPT.format(
+        query=query,
+        existing_results=results_summary,
+        insufficient_questions="\n".join(insufficient_info) if insufficient_info else "无",
+        next_id=next_id,
+    )
+
+    try:
+        response = llm.invoke([HumanMessage(content=prompt)])
+        content = response.content.strip()
+        if "```json" in content:
+            content = content.split("```json")[1].split("```")[0].strip()
+        result = json.loads(content)
+        return result.get("supplementary_questions", [])
+    except Exception as e:
+        print(f"  [Planner] 重规划失败: {e}")
+        # 降级：为每个不足的子问题生成一个简单补充
+        fallback = []
+        for i, sid in enumerate(insufficient_ids[:3]):
+            fallback.append({
+                "id": next_id + i,
+                "question": f"补充搜索: {query}",
+                "depends_on": [],
+                "tool_type": "search",
+            })
+        return fallback
