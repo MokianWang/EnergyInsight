@@ -82,7 +82,6 @@ GET  /report/{id}                                      # 获取报告
 ```
 EnergyInsight/
 ├── api_server.py          # FastAPI Web 服务 (主入口)
-├── Dockerfile             # Docker 部署
 ├── config/settings.py     # 全局配置
 ├── agents/                # 6 个 Agent (planner/researcher/analyst/writer/reviewer/classifier)
 ├── graph/workflow.py      # LangGraph 编排
