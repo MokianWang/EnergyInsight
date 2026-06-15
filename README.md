@@ -71,14 +71,6 @@ venv312\Scripts\python main.py --query "钠离子电池储能技术经济性分�
 - 250 条能源术语词典 + jieba 分词 + NER
 - BM25 关键词索引 + TF-IDF/BGE 重排序
 
-## 命令行
-
-```bash
-python main.py --query "青海100MW光伏配储能最优容量"   # 自定义查询
-python main.py --demo                                    # 预设演示
-python main.py                                           # 交互模式
-```
-
 ## API
 
 ```bash
@@ -91,8 +83,7 @@ GET  /report/{id}                                      # 获取报告
 
 ```
 EnergyInsight/
-├── api_server.py          # FastAPI Web 服务
-├── main.py                # CLI 入口
+├── api_server.py          # FastAPI Web 服务 (主入口)
 ├── Dockerfile             # Docker 部署
 ├── config/settings.py     # 全局配置
 ├── agents/                # 6 个 Agent (planner/researcher/analyst/writer/reviewer/classifier)
