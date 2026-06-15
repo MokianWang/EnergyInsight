@@ -47,6 +47,8 @@ venv312\Scripts\python -m knowledge.collect_official
 # Web 界面 (推荐)
 PYTHONIOENCODING=utf-8 venv312\Scripts\python api_server.py
 # 打开 http://localhost:8000
+```
+
 
 ## 核心能力
 
